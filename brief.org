@@ -1,0 +1,117 @@
+#+TITLE: Short Brief: ZIP-Code Apportionment for Maryland
+#+AUTHOR: ZIP Apportionment Initiative
+#+DATE: 2026-01-24
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+* Metadata
+- Version: 0.1
+- Prepared by: ZIP Apportionment Initiative (volunteer, outcome-bound)
+
+* Proposal (One Sentence)
+
+*Legislative representation in Maryland should be apportioned by ZIP code rather than population, assigning one delegate per ZIP code, elected by voters residing within that ZIP.*
+
+* 1. The Proposal
+
+Maryland should adopt a geographic, lived-community standard for representation.
+
+- *Unit:* U.S. Postal Service ZIP code
+- *Rule:* *One Delegate per ZIP* (state House)
+- *Selection:* Direct election by voters within each ZIP
+- *Intent:* Restore proximity between representatives and the represented by shrinking constituency scale
+
+This proposal treats population variance as a feature rather than a defect. In a republic, the purpose of representation is not mathematical equality in theory, but *real accountability in practice*.
+
+* 2. The Problem with Population-Based Apportionment
+
+Population-based apportionment predictably produces a scale mismatch. As populations concentrate and districts grow, proximity collapses. This is not a moral claim about any party; it is a structural claim about incentives.
+
+** 2.1 Scale Mismatch
+
+- As districts grow, representatives become less reachable and less personally accountable.
+- Local problems are deprioritized as attention shifts to broad, media-driven issues.
+- Representation becomes periodic mass voting rather than continuous civic contact.
+
+** 2.2 Gerrymandering Becomes Rational
+
+- When representation is tied to population totals, boundaries become the battlefield.
+- Districting becomes a recurring contest for advantage, weakening legitimacy.
+- Even “independent” maps cannot eliminate manipulation incentives; they only relocate who draws them.
+
+** 2.3 Faction Consolidation
+
+- Larger districts increase the value of money, endorsements, and institutional pipelines.
+- Political outcomes concentrate around organized interests capable of operating at scale.
+- Ordinary voters experience politics as distant, pre-decided, and unresponsive.
+
+In short, population apportionment tends to produce representatives who are *formally legitimate* but *practically remote*.
+
+* 3. Why ZIP Codes Work as a Representation Unit
+
+ZIP codes are imperfect by design. Representation is a human system, not a geometry problem. ZIP codes are nevertheless effective because they are *real*, *lived*, and *difficult to game* for political advantage.
+
+** 3.1 Lived Geography
+
+- Most residents can identify their ZIP and recognize it as “their area.”
+- ZIPs correlate with daily life: mail, schools, commuting, commerce, and shared services.
+
+** 3.2 Cultural and Community Coherence
+
+- ZIPs often align with towns, neighborhoods, or recognizable communities of interest.
+- They preserve local distinctions that are lost in large, multi-community districts.
+
+** 3.3 Resistance to Gerrymandering
+
+- ZIP boundaries are not drawn by legislators for electoral advantage.
+- Changes occur, but not primarily for partisan gain.
+
+#+BEGIN_QUOTE
+Design claim: A representation unit is effective if it reduces the ability of political actors to choose their voters and increases the ability of voters to know and pressure their representative.
+#+END_QUOTE
+
+* 4. Anticipated Objections and Direct Answers
+
+** Objection A: ZIP codes were not designed for representation
+
+Correct. They were designed for logistics. This is an advantage. It reduces partisan incentives to manipulate boundaries. Representation units do not need to be designed for politics; they need to be stable enough to use and real enough to live in.
+
+** Objection B: Population equality is democratic
+
+Population equality is one value among several. Extreme scale weakens accountability. This proposal prioritizes *proximity*, *diffusion of power*, and *resistance to capture* over abstract equality that cannot be operationalized into meaningful consent.
+
+** Objection C: This will change the composition of the legislature
+
+It will change incentives. That is the point. A system should not be judged by whether it produces a preferred outcome, but by whether it reliably produces *responsive representation*.
+
+** Objection D: ZIP codes change over time
+
+They do, gradually. Any workable implementation can adopt a fixed reference date per cycle. Change is manageable. The deeper problem is political boundary manipulation, which this proposal seeks to minimize.
+
+* 5. Constitutional and Practical Plausibility
+
+This brief does not offer legal advice. It makes an institutional claim: states possess broad authority to design their internal legislative structures, and historical practice shows wide variation in state representation models.
+
+- Maryland may define representation units through constitutional or statutory design.
+- ZIP boundaries are documented, public, and administratively usable.
+- Election administration is straightforward: residence determines ZIP constituency.
+
+* 6. What Success Looks Like
+
+This initiative is outcome-bound. It does not exist to fundraise, brand, or persist.
+
+Success is measured by institutional movement:
+
+- Formal introduction of ZIP-apportionment legislation or amendment language
+- Establishment of a legislative study commission or public hearing
+- On-record engagement by Maryland officials addressing the proposal on the merits
+
+#+BEGIN_QUOTE
+Closing claim: If representation exists to secure consent, proximity matters. Where proximity collapses, legitimacy becomes thin. ZIP-based apportionment offers a concrete way to restore human scale to self-government.
+#+END_QUOTE
+
+* Footer
+
+ZIP Apportionment Initiative  
+No tracking. No analytics. No advertising.  
+Published for public use and reuse.
