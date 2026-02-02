@@ -1,0 +1,338 @@
+1
+00:00:00,000 --> 00:00:03,922
+Representation is broken.<break
+time="1.6s"/>
+
+2
+00:00:03,922 --> 00:00:05,780
+Representation is broken.
+
+3
+00:00:05,780 --> 00:00:07,730
+Here is why.
+
+4
+00:00:07,730 --> 00:00:12,699
+The United States was designed to
+represent people and places.
+
+5
+00:00:12,699 --> 00:00:15,857
+Over time, we kept the population.
+
+6
+00:00:15,857 --> 00:00:18,225
+We erased the places.
+
+7
+00:00:18,225 --> 00:00:22,497
+This matters more than most political
+arguments we have today.
+
+8
+00:00:22,497 --> 00:00:26,630
+Because many of our frustrations are not
+ideological problems.
+
+9
+00:00:26,630 --> 00:00:28,906
+They are structural ones.
+
+10
+00:00:28,906 --> 00:00:31,228
+Letâ€™s start with what changed.
+
+11
+00:00:31,228 --> 00:00:35,361
+First, the House of Representatives
+stopped growing.
+
+12
+00:00:35,361 --> 00:00:42,205
+In the early history of the country, as
+population increased, the House increased
+
+13
+00:00:42,205 --> 00:00:48,364
+with it. Representation stayed close.
+Representatives remained reachable.
+
+14
+00:00:48,364 --> 00:00:54,912
+In 1929, Congress capped the size of the
+House to 435 members with the passage of
+
+15
+00:00:54,912 --> 00:00:58,023
+the House Permanent Apportionment Act.
+
+16
+00:00:58,023 --> 00:01:00,624
+The Constitution never required this.
+
+17
+00:01:00,624 --> 00:01:03,039
+It was a policy choice.
+
+18
+00:01:03,039 --> 00:01:09,559
+The result is that each representative
+now speaks for hundreds of thousands of
+
+19
+00:01:09,559 --> 00:01:15,655
+people. That distance changes incentives.
+It changes behavior. It changes
+
+20
+00:01:15,655 --> 00:01:16,925
+accountability.
+
+21
+00:01:16,925 --> 00:01:20,640
+Second, the Senate stopped representing
+states.
+
+22
+00:01:20,640 --> 00:01:26,756
+Originally, Senators were chosen by state
+legislatures. The Senate was designed to
+
+23
+00:01:26,756 --> 00:01:31,739
+represent states as political bodies, not
+as collections of voters.
+
+24
+00:01:31,739 --> 00:01:34,850
+The 17th Amendment changed that.
+
+25
+00:01:34,850 --> 00:01:41,032
+Since then, Senators have been selected
+by popular election. Whatever the
+
+26
+00:01:41,032 --> 00:01:47,213
+intentions, the effect was structural:
+the Senate became a second popular
+
+27
+00:01:47,213 --> 00:01:47,900
+chamber.
+
+28
+00:01:47,900 --> 00:01:54,210
+When both chambers chase the same public
+incentives, something important is lost.
+
+29
+00:01:54,210 --> 00:01:57,838
+State consent fades. Federal power
+centralizes.
+
+30
+00:01:57,838 --> 00:02:01,600
+Third, districts replaced communities.
+
+31
+00:02:01,600 --> 00:02:08,529
+Legislative districts are drawn. They are
+redrawn. They shift with political winds.
+
+32
+00:02:08,529 --> 00:02:12,838
+Neighborhoods are split. Communities are
+rearranged.
+
+33
+00:02:12,838 --> 00:02:15,810
+But daily life does not work that way.
+
+34
+00:02:15,810 --> 00:02:23,010
+People live in places that remain stable.
+They share schools, roads, churches,
+
+35
+00:02:23,010 --> 00:02:29,556
+markets, and local concerns. Political
+lines float. Communities do not.
+
+36
+00:02:29,556 --> 00:02:34,386
+So what is proposed here is not radical.
+It is corrective.
+
+37
+00:02:34,386 --> 00:02:37,312
+Our proposals are as follows.
+
+38
+00:02:37,312 --> 00:02:44,088
+<break time="0.9s"/>One. At the state
+level: ZIP code representation.<break
+
+39
+00:02:44,088 --> 00:02:45,278
+time="1.4s"/>
+
+40
+00:02:45,278 --> 00:02:50,641
+ZIP codes already reflect lived
+communities. They change naturally as
+
+41
+00:02:50,641 --> 00:02:56,792
+population shifts. They are difficult to
+gerrymander. People know what ZIP code
+
+42
+00:02:56,792 --> 00:02:57,817
+they live in.
+
+43
+00:02:57,817 --> 00:03:03,436
+Under this model, each ZIP code would
+elect one state delegate.
+
+44
+00:03:03,436 --> 00:03:09,935
+<break time="0.9s"/>Two. At the federal
+level: county representation.<break
+
+45
+00:03:09,935 --> 00:03:11,077
+time="1.4s"/>
+
+46
+00:03:11,077 --> 00:03:17,434
+Counties are stable political units. They
+predate the modern federal state. They
+
+47
+00:03:17,434 --> 00:03:21,619
+already handle courts, records, and local
+governance.
+
+48
+00:03:21,619 --> 00:03:24,870
+Each county would elect one
+Representative to the House.
+
+49
+00:03:24,870 --> 00:03:31,068
+And finally number three. Restore the
+original Senate by repealing the 17th
+
+50
+00:03:31,068 --> 00:03:34,669
+Amendment of the United States
+Constitution.
+
+51
+00:03:34,669 --> 00:03:37,827
+Return Senate selection to state
+legislatures.
+
+52
+00:03:37,827 --> 00:03:39,731
+This is not about nostalgia.
+
+53
+00:03:39,731 --> 00:03:42,099
+It is about function.
+
+54
+00:03:42,099 --> 00:03:45,303
+So what breaks when scale is wrong?
+
+55
+00:03:45,303 --> 00:03:51,340
+Representation only works when people
+know who represents them and why.
+
+56
+00:03:51,340 --> 00:03:58,128
+When units become too large, capture
+becomes easier. Accountability weakens.
+
+57
+00:03:58,128 --> 00:04:00,210
+Participation declines.
+
+58
+00:04:00,210 --> 00:04:03,879
+Smaller units do not guarantee good
+governance.
+
+59
+00:04:03,879 --> 00:04:08,105
+But oversized units almost guarantee
+distance.
+
+60
+00:04:08,105 --> 00:04:10,055
+This is not a party issue.
+
+61
+00:04:10,055 --> 00:04:12,191
+This is a scale issue.
+
+62
+00:04:12,191 --> 00:04:14,977
+You do not need to agree with these
+proposals.
+
+63
+00:04:14,977 --> 00:04:17,531
+You only need to ask the questions.
+
+64
+00:04:17,531 --> 00:04:21,989
+Why was the House capped when the
+Constitution never required it?
+
+65
+00:04:21,989 --> 00:04:27,051
+Who is the Senate supposed to represent:
+the states, or the public?
+
+66
+00:04:27,051 --> 00:04:32,902
+Why do districts change constantly while
+communities remain stable?
+
+67
+00:04:32,902 --> 00:04:38,614
+At what point does representation become
+symbolic rather than personal?
+
+68
+00:04:38,614 --> 00:04:40,611
+These are not radical questions.
+
+69
+00:04:40,611 --> 00:04:43,212
+They are architectural ones.
+
+70
+00:04:43,212 --> 00:04:46,045
+Learn more at zip init dot org.
+
+71
+00:04:46,045 --> 00:04:47,949
+Copy this audio freely.
+
+72
+00:04:47,949 --> 00:04:48,878
+Share it.
+
+73
+00:04:48,878 --> 00:04:50,085
+Change it.
+
+74
+00:04:50,085 --> 00:04:51,525
+No permission required.
+
