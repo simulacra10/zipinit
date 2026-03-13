@@ -1,0 +1,17 @@
+ZIP Initiative Overview
+
+The ZIP Initiative explores a model of legislative representation
+based on ZIP code geographic units.
+
+In this model:
+
+- each ZIP code becomes a representation unit
+- voters in that ZIP code elect one representative
+- the representative serves the geographic community directly
+
+The primary goal is to eliminate gerrymandering by removing the
+ability to draw electoral districts.
+
+ZIP codes are used because they are stable, widely recognized
+community boundaries that already structure many aspects of
+daily life including mail delivery, demographics, and commerce.

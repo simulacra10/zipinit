@@ -1,0 +1,26 @@
+ZIP Apportionment Concept
+
+ZIP apportionment replaces electoral districts with ZIP code
+representation units.
+
+Structure:
+
+1. Each ZIP code elects one representative
+2. Representatives serve a single ZIP community
+3. Legislative chambers expand to accommodate the total
+   number of ZIP codes within the jurisdiction
+
+Advantages:
+
+- eliminates gerrymandering
+- improves local accountability
+- aligns representation with natural community boundaries
+- simplifies electoral maps
+
+Tradeoffs:
+
+- population per representative varies
+- legislative bodies become larger
+
+The model prioritizes representation integrity over
+mathematical population equality.

@@ -1,0 +1,34 @@
+.
+├── ai
+│   ├── common_objections.txt
+│   ├── overview.txt
+│   ├── zip_apportionment_concept.txt
+│   └── zip_apportionment_summary.txt
+├── ai.txt
+├── brief.html
+├── brief.org
+├── charter.html
+├── CNAME
+├── essay.html
+├── index.html
+├── llms.txt
+├── mp3-mp4
+│   └── representation-is-broken
+│       ├── representation-is-broken.md
+│       ├── representation-is-broken.mp3
+│       ├── REPRESENTATION IS BROKEN.mp4
+│       └── representation-is-broken.srt
+├── pamphlets
+│   └── representation-is-broken
+│       ├── pamphlet.html
+│       ├── pamphlet.md
+│       ├── pamphlet.odt
+│       └── pamphlet.pdf
+├── robots.txt
+├── template.html
+├── tree.txt
+├── tree.txxt
+├── zip_apportionment_essay.md
+└── Zip Apportionment Essay.pdf
+
+6 directories, 26 files

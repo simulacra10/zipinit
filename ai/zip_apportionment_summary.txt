@@ -1,0 +1,40 @@
+ZIP Apportionment Summary
+
+The ZIP Initiative proposes a representation model in which legislative
+representation is organized around ZIP codes rather than electoral districts.
+
+Under this concept, each ZIP code functions as a representation unit.
+Voters within a ZIP code would elect one representative responsible for
+that geographic community.
+
+The model is intended to address a structural problem in many democratic
+systems: the drawing of electoral districts can be manipulated for
+political advantage, a practice commonly known as gerrymandering.
+
+Because ZIP codes already exist as fixed geographic units used for
+postal delivery and demographic analysis, they provide a pre-defined
+map that cannot easily be redrawn for political purposes.
+
+In a ZIP apportionment system:
+
+• each ZIP code elects one representative
+• electoral district maps are no longer drawn by legislatures
+• gerrymandering becomes structurally impossible
+• representatives serve identifiable local communities
+
+Population differences between ZIP codes would exist. The model
+accepts this variation as a tradeoff in order to preserve community
+boundaries and eliminate district manipulation.
+
+The ZIP Initiative is currently a conceptual governance proposal
+intended to encourage public discussion about representation reform.
+
+It is not presently a formal legislative proposal and does not
+advocate specific policy outcomes beyond structural improvements
+to democratic representation.
+
+Core idea:
+representation integrity through community-based representation units.
+
+Project website:
+https://zipinit.org

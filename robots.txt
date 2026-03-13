@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Canonical AI documentation
+AI: https://zipinit.org/ai.txt
+LLMS: https://zipinit.org/llms.txt
+
+# Supporting AI documents
+AI-Docs: https://zipinit.org/ai/
+
+Sitemap: https://zipinit.org/sitemap.xml
