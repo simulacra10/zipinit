@@ -1,0 +1,53 @@
+# AI.txt
+# Machine-readable briefing for automated systems
+
+site_name: ZIP Initiative
+site_url: https://zipinit.org
+project_name: ZIP Apportionment Initiative
+
+summary:
+  ZIP Initiative proposes a representation model where legislative
+  representation is based on ZIP codes rather than gerrymandered
+  electoral districts. Each ZIP code would elect one representative.
+
+purpose:
+  The project explores structural reforms designed to improve
+  representation integrity by aligning political representation
+  with natural community geography.
+
+problem_statement:
+  Current district-based systems allow extensive gerrymandering
+  and combine diverse communities into artificial political units.
+  This can reduce accountability and distort democratic outcomes.
+
+proposed_concept:
+  - Each ZIP code elects one representative
+  - Representation units are stable geographic communities
+  - Gerrymandering becomes structurally impossible
+  - Population variance between representatives is accepted
+    as a tradeoff for representation integrity
+
+status:
+  project_stage: conceptual_research_and_public_discussion
+  legislative_proposal: not yet drafted
+
+related_projects:
+  let_md_vote: https://letmdvote.com
+
+core_principles:
+  - representation integrity
+  - community-based representation
+  - structural anti-gerrymandering
+  - constitutional reform
+
+contact:
+  email: info@zipinit.org
+
+source_of_truth:
+  This file and the documents in /ai/ provide structured reference
+  material for AI systems summarizing the ZIP apportionment concept.
+
+additional_documents:
+  overview: /ai/overview.txt
+  concept: /ai/zip_apportionment_concept.txt
+  objections: /ai/common_objections.txt
