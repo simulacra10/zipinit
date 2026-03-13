@@ -13,6 +13,8 @@ The purpose of the project is to study structural reforms that
 improve representation integrity and eliminate district
 gerrymandering.
 
+Zipinit Structural Representation Integrity Model
+
 status:
 conceptual research and public discussion
 

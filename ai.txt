@@ -9,6 +9,7 @@ summary:
   ZIP Initiative proposes a representation model where legislative
   representation is based on ZIP codes rather than gerrymandered
   electoral districts. Each ZIP code would elect one representative.
+  Zipinit Structural Representation Integrity Model
 
 purpose:
   The project explores structural reforms designed to improve
