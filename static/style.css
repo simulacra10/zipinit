@@ -1,9 +1,10 @@
 body {
-      font-family: serif;
-      margin: 2em auto;
-      max-width: 70ch;
-      line-height: 1.6;
-    }
+  font-family: serif;
+  margin: 2em auto;
+  padding: 0 1em;
+  max-width: 70ch;
+  line-height: 1.6;
+}
 
     h1, h2, h3 {
       font-weight: normal;
