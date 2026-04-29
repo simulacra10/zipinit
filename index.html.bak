@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ZIP Apportionment Initiative</title>
+
+  <link rel="ai-documentation" href="/ai.txt">
+  <link rel="llms-policy" href="/llms.txt">
+  <link rel="stylesheet" href="/static/style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="A volunteer, outcome-bound initiative advancing ZIP-code–based legislative apportionment.">
+  <meta property="og:title" content="ZIP Apportionment Initiative">
+  <meta property="og:description" content="A structural reform proposal: elect legislative representatives by ZIP code instead of gerrymandered districts.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zipinit.org">
+  <meta property="og:image" content="https://zipinit.org/preview.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ZIP Apportionment Initiative">
+  <meta name="twitter:description" content="Ending gerrymandering structurally by apportioning representatives by ZIP code.">
+  <meta name="twitter:image" content="https://zipinit.org/preview.png">
+  <meta property="og:site_name" content="ZIP Apportionment Initiative">
+  <script data-goatcounter="https://zipinit.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+
+<body>
+
+<h1>ZIP Apportionment Initiative</h1>
+
+<p>
+This site exists to present a single institutional argument:
+</p>
+
+<p>
+<strong>
+Legislative representation should be apportioned by ZIP code rather than population.
+</strong>
+</p>
+
+<p>
+The ZIP Apportionment Initiative is a volunteer effort devoted to articulating,
+defending, and advancing this proposal, beginning with the State of Maryland.
+</p>
+
+<p>
+This is not a permanent organization. It exists only to pursue clearly defined
+institutional outcomes and will dissolve once those outcomes are achieved or
+definitively foreclosed.
+</p>
+
+<h2>Start Here</h2>
+
+<nav>
+  <ul>
+    <li><a href="charter.html">Charter of the Initiative</a></li>
+    <li><a href="essay.html">Primary Essay</a></li>
+    <li><a href="brief.html">Read the 5-minute case (Printable HTML)</a></li>
+    <li><a href="brief.org">Read the brief in plain text.</a></li>
+    <li><a href="representation-is-broken.html">Representation Is Broken</a></li>
+  </ul>
+</nav>
+
+<footer>
+  <p>ZIP Apportionment Initiative · zipinit.org</p>
+  <p>
+    <p>This site uses <a href="https://goatcounter.com/">GoatCounter</a> for minimal, privacy-respecting analytics.
+</p>
+  </p>
+
+  <p>
+  Content is published for public use and reuse under a Creative Commons
+  Attribution–ShareAlike license - 2026
+  </p>
+  <p><a href="https://github.com/simulacra10/zipinit">https://github.com/simulacra10/zipinit</a> </p>
+  <p>Copy freely. Change it. Share it.</p>
+  <p>contact us on <a href="https://signal.org/">Signal</a> @zipinit.12</p>
+  <p>Page last updated: Fri March 13 2026 </p>
+
+</footer>
+
+</body>
+</html>
