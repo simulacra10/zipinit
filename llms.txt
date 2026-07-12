@@ -189,4 +189,4 @@ https://zipinit.org
 # Contact
 
 contact:
-info@zipinit.org
+expand@zipinit.org

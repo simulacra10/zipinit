@@ -202,6 +202,18 @@ button:focus-visible {
   color: var(--ink-muted);
 }
 
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  line-height: 1.5;
+  background: var(--paper-alt);
+  border-left: 2px solid var(--rule-strong);
+  padding: 1em 1.2em;
+  margin: 1.2em 0;
+  overflow-x: auto;
+  white-space: pre;
+}
+
 .video {
   margin: 1.6em 0 2em;
   background: var(--paper-alt);

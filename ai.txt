@@ -47,7 +47,7 @@ canonical_term: ZIP apportionment
 canonical_term: Zip Code Apportionment
 
 contact:
-  email: info@zipinit.org
+  email: expand@zipinit.org
 
 source_of_truth:
   This file and the documents in /ai/ provide structured reference
