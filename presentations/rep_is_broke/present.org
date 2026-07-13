@@ -1,0 +1,145 @@
+#+TITLE: Representation Integrity
+#+SUBTITLE: Restoring local voice through ZIP-based apportionment
+#+AUTHOR: Norman Bauer
+#+DATE: \today
+
+#+OPTIONS: toc:nil num:nil reveal_width:1200 reveal_height:700
+
+#+REVEAL_THEME: white
+#+REVEAL_TRANS: fade
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1><h3>%s</h3><p>%a</p>
+#+REVEAL_INIT_OPTIONS: slideNumber:true, hash:true, controls:true, progress:true, center:true
+
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND: ./wpl-ai.png
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_SIZE: cover
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_POSITION: center
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_REPEAT: no-repeat
+
+#+HTML_HEAD: <style>
+#+HTML_HEAD: .reveal .backgrounds > .slide-background:first-child {
+#+HTML_HEAD:   background-image: url('./wpl-ai.png');
+#+HTML_HEAD:   background-size: cover;
+#+HTML_HEAD:   background-position: center;
+#+HTML_HEAD:   background-repeat: no-repeat;
+#+HTML_HEAD:   opacity: 0.35;
+#+HTML_HEAD: }
+#+HTML_HEAD: </style>
+
+
+#+HTML_HEAD: <style>
+#+HTML_HEAD: .reveal .slide-background-content {
+#+HTML_HEAD:   opacity: 0.35;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal .slides section {
+#+HTML_HEAD:   text-shadow: 0 2px 6px rgba(0,0,0,0.65);
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal h1,
+#+HTML_HEAD: .reveal h2 {
+#+HTML_HEAD:   text-transform: none;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal h1,
+#+HTML_HEAD: .reveal h2,
+#+HTML_HEAD: .reveal h3,
+#+HTML_HEAD: .reveal p,
+#+HTML_HEAD: .reveal li {
+#+HTML_HEAD:   color: black;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal p,
+#+HTML_HEAD: .reveal li {
+#+HTML_HEAD:   font-size: 0.8em;
+#+HTML_HEAD:   line-height: 1.35;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal blockquote {
+#+HTML_HEAD:   width: 85%;
+#+HTML_HEAD:   font-size: 0.8em;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal .small {
+#+HTML_HEAD:   font-size: 0.65em;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal .big {
+#+HTML_HEAD:   font-size: 1.25em;
+#+HTML_HEAD:   font-weight: bold;
+#+HTML_HEAD: }
+#+HTML_HEAD: </style>
+
+#+HTML_HEAD: <style>
+#+HTML_HEAD: .reveal section.compact-table table {
+#+HTML_HEAD:   font-size: 0.42em;
+#+HTML_HEAD:   line-height: 1.05;
+#+HTML_HEAD:   width: 100%;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal section.compact-table th,
+#+HTML_HEAD: .reveal section.compact-table td {
+#+HTML_HEAD:   padding: 0.12em 0.25em;
+#+HTML_HEAD:   white-space: nowrap;
+#+HTML_HEAD: }
+#+HTML_HEAD:
+#+HTML_HEAD: .reveal section.compact-table h2 {
+#+HTML_HEAD:   font-size: 1.1em;
+#+HTML_HEAD:   margin-bottom: 0.35em;
+#+HTML_HEAD: }
+#+HTML_HEAD: </style>
+
+* Representation Integrity
+
+** About The ZIP Apportionmet Initiative
+#+BEGIN_SRC javascript
+  vitals {
+      org: "The ZIP Apportionment Initiative",
+      url:"https://zipinit.org/",
+      contact_signal: "Use Signal Messenger: @zipinit.12",
+      git: "https://github.com/simulacra10/zipinit"
+  }
+#+END_SRC
+** Maryland Demographics
+- House of Delegates = 141 Delagates
+- State Senators = 47
+- Number of People = 6,177,224 (US Census Numbers 2020)
+
+** Maryland's Current Representation Ratios
+
+- House of Delegates: 1 Delegate per 43,810 people - 1 Delegate: 43,810 constituents
+- State Senate: 1 Senator per 131,430 people
+- Chamber ratio: 3 Delegates per 1 Senator
+#+REVEAL_HTML: <p class="big">The farther the representative is from the people, the weaker the representation becomes.</p>
+** What should the max population size be for a single ZIP code?
+
+#+REVEAL_HTML: <p class="fragment slide-in big" style="color: #e21833;">43,810 people</p>
+** Maryland ZIP Codes Over the 43,810 Threshold
+:PROPERTIES:
+:reveal_extra_attr: class="compact-table"
+:END:
+
+#+REVEAL_HTML: <div class="small">
+
+| ZIP   | Area                  | Pop.   | ZIP   | Area                  | Pop.   | ZIP   | Area                  | Pop.   |
+|-------+-----------------------+--------+-------+-----------------------+--------+-------+-----------------------+--------|
+| 20906 | Silver Spring         | 70,595 | 21061 | Glen Burnie           | 57,230 | 21224 | Baltimore             | 47,465 |
+| 21234 | Parkville/Baltimore   | 66,334 | 20744 | Fort Washington       | 54,441 | 21207 | Baltimore/Gwynn Oak   | 47,099 |
+| 20878 | Gaithersburg          | 66,115 | 20772 | Upper Marlboro        | 54,319 | 21229 | Baltimore             | 46,679 |
+| 21740 | Hagerstown            | 64,792 | 20902 | Silver Spring         | 54,261 | 20910 | Silver Spring         | 45,943 |
+| 20874 | Germantown            | 62,738 | 20774 | Bowie                 | 51,816 | 21921 | Elkton                | 45,527 |
+| 21122 | Pasadena              | 61,566 | 20854 | Potomac               | 50,498 | 21044 | Columbia              | 44,114 |
+| 21117 | Owings Mills          | 60,816 | 20850 | Rockville             | 50,353 | 21218 | Baltimore             | 44,014 |
+| 21222 | Dundalk               | 59,407 | 20783 | Hyattsville           | 50,333 | 21221 | Middle River          | 43,487 |
+|       |                       |        | 21702 | Frederick             | 49,605 | 21042 | Ellicott City         | 43,327 |
+|       |                       |        | 20852 | Rockville             | 48,180 |       |                       |        |
+
+#+REVEAL_HTML: </div>
+** The problem is not only election integrity
+** Representation has been diluted
+** District lines create political power
+** ZIP Init: representation rooted in real communities
+** Why ZIP codes?
+** What this changes
+** Objections and answers
+** Closing: Election integrity is incomplete without representation integrity

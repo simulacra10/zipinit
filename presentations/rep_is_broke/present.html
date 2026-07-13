@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Representation Integrity</title>
+<meta name="author" content="Norman Bauer"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<style>
+.reveal .backgrounds > .slide-background:first-child {
+background-image: url('./wpl-ai.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+opacity: 0.35;
+}
+</style>
+<style>
+.reveal .slide-background-content {
+opacity: 0.35;
+}
+
+.reveal .slides section {
+text-shadow: 0 2px 6px rgba(0,0,0,0.65);
+}
+
+.reveal h1,
+.reveal h2 {
+text-transform: none;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal p,
+.reveal li {
+color: black;
+}
+
+.reveal p,
+.reveal li {
+font-size: 0.8em;
+line-height: 1.35;
+}
+
+.reveal blockquote {
+width: 85%;
+font-size: 0.8em;
+}
+
+.reveal .small {
+font-size: 0.65em;
+}
+
+.reveal .big {
+font-size: 1.25em;
+font-weight: bold;
+}
+</style>
+<style>
+.reveal section.compact-table table {
+font-size: 0.42em;
+line-height: 1.05;
+width: 100%;
+}
+
+.reveal section.compact-table th,
+.reveal section.compact-table td {
+padding: 0.12em 0.25em;
+white-space: nowrap;
+}
+
+.reveal section.compact-table h2 {
+font-size: 1.1em;
+margin-bottom: 0.35em;
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1>Representation Integrity</h1><h3>Restoring local voice through ZIP-based apportionment</h3><p>Norman Bauer</p>
+</section>
+
+<section>
+<section id="slide-org6605a33" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h2 id="org6605a33">Representation Integrity</h2>
+<div class="outline-text-2" id="text-org6605a33">
+</div>
+</section>
+<section id="slide-orgcb3292e" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="orgcb3292e">About The ZIP Apportionmet Initiative</h3>
+<div class="org-src-container">
+
+<pre  class="src src-javascript"   ><code trim>vitals {
+    org: <span style="color: #E6DB74;">"The ZIP Apportionment Initiative"</span>,
+    url:<span style="color: #E6DB74;">"https://zipinit.org/"</span>,
+    contact_signal: <span style="color: #E6DB74;">"Use Signal Messenger: @zipinit.12"</span>,
+    git: <span style="color: #E6DB74;">"https://github.com/simulacra10/zipinit"</span>
+}
+</code></pre>
+</div>
+</section>
+<section id="slide-org03780c2" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="org03780c2">Maryland Demographics</h3>
+<ul>
+<li>House of Delegates = 141 Delagates</li>
+<li>State Senators = 47</li>
+<li>Number of People = 6,177,224 (US Census Numbers 2020)</li>
+
+</ul>
+
+</section>
+<section id="slide-orgb887bb6" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="orgb887bb6">Maryland's Current Representation Ratios</h3>
+<ul>
+<li>House of Delegates: 1 Delegate per 43,810 people - 1 Delegate: 43,810 constituents</li>
+<li>State Senate: 1 Senator per 131,430 people</li>
+<li>Chamber ratio: 3 Delegates per 1 Senator</li>
+
+</ul>
+<p class="big">The farther the representative is from the people, the weaker the representation becomes.</p>
+</section>
+<section id="slide-orgfe3aac2" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="orgfe3aac2">What should the max population size be for a single ZIP code?</h3>
+<p class="fragment slide-in big" style="color: #e21833;">43,810 people</p>
+</section>
+<section id="slide-org8cdc043" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat" class="compact-table">
+<h3 id="org8cdc043">Maryland ZIP Codes Over the 43,810 Threshold</h3>
+<div class="small">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">ZIP</th>
+<th scope="col" class="org-left">Area</th>
+<th scope="col" class="org-left">Pop.</th>
+<th scope="col" class="org-right">ZIP</th>
+<th scope="col" class="org-left">Area</th>
+<th scope="col" class="org-left">Pop.</th>
+<th scope="col" class="org-right">ZIP</th>
+<th scope="col" class="org-left">Area</th>
+<th scope="col" class="org-left">Pop.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">20906</td>
+<td class="org-left">Silver Spring</td>
+<td class="org-left">70,595</td>
+<td class="org-right">21061</td>
+<td class="org-left">Glen Burnie</td>
+<td class="org-left">57,230</td>
+<td class="org-right">21224</td>
+<td class="org-left">Baltimore</td>
+<td class="org-left">47,465</td>
+</tr>
+
+<tr>
+<td class="org-right">21234</td>
+<td class="org-left">Parkville/Baltimore</td>
+<td class="org-left">66,334</td>
+<td class="org-right">20744</td>
+<td class="org-left">Fort Washington</td>
+<td class="org-left">54,441</td>
+<td class="org-right">21207</td>
+<td class="org-left">Baltimore/Gwynn Oak</td>
+<td class="org-left">47,099</td>
+</tr>
+
+<tr>
+<td class="org-right">20878</td>
+<td class="org-left">Gaithersburg</td>
+<td class="org-left">66,115</td>
+<td class="org-right">20772</td>
+<td class="org-left">Upper Marlboro</td>
+<td class="org-left">54,319</td>
+<td class="org-right">21229</td>
+<td class="org-left">Baltimore</td>
+<td class="org-left">46,679</td>
+</tr>
+
+<tr>
+<td class="org-right">21740</td>
+<td class="org-left">Hagerstown</td>
+<td class="org-left">64,792</td>
+<td class="org-right">20902</td>
+<td class="org-left">Silver Spring</td>
+<td class="org-left">54,261</td>
+<td class="org-right">20910</td>
+<td class="org-left">Silver Spring</td>
+<td class="org-left">45,943</td>
+</tr>
+
+<tr>
+<td class="org-right">20874</td>
+<td class="org-left">Germantown</td>
+<td class="org-left">62,738</td>
+<td class="org-right">20774</td>
+<td class="org-left">Bowie</td>
+<td class="org-left">51,816</td>
+<td class="org-right">21921</td>
+<td class="org-left">Elkton</td>
+<td class="org-left">45,527</td>
+</tr>
+
+<tr>
+<td class="org-right">21122</td>
+<td class="org-left">Pasadena</td>
+<td class="org-left">61,566</td>
+<td class="org-right">20854</td>
+<td class="org-left">Potomac</td>
+<td class="org-left">50,498</td>
+<td class="org-right">21044</td>
+<td class="org-left">Columbia</td>
+<td class="org-left">44,114</td>
+</tr>
+
+<tr>
+<td class="org-right">21117</td>
+<td class="org-left">Owings Mills</td>
+<td class="org-left">60,816</td>
+<td class="org-right">20850</td>
+<td class="org-left">Rockville</td>
+<td class="org-left">50,353</td>
+<td class="org-right">21218</td>
+<td class="org-left">Baltimore</td>
+<td class="org-left">44,014</td>
+</tr>
+
+<tr>
+<td class="org-right">21222</td>
+<td class="org-left">Dundalk</td>
+<td class="org-left">59,407</td>
+<td class="org-right">20783</td>
+<td class="org-left">Hyattsville</td>
+<td class="org-left">50,333</td>
+<td class="org-right">21221</td>
+<td class="org-left">Middle River</td>
+<td class="org-left">43,487</td>
+</tr>
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">21702</td>
+<td class="org-left">Frederick</td>
+<td class="org-left">49,605</td>
+<td class="org-right">21042</td>
+<td class="org-left">Ellicott City</td>
+<td class="org-left">43,327</td>
+</tr>
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">20852</td>
+<td class="org-left">Rockville</td>
+<td class="org-left">48,180</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</section>
+<section id="slide-org7135db3" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="org7135db3">The problem is not only election integrity</h3>
+</section>
+<section id="slide-orgce41b13" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="orgce41b13">Representation has been diluted</h3>
+</section>
+<section id="slide-orgd34698f" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="orgd34698f">District lines create political power</h3>
+</section>
+<section id="slide-org8844f8a" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="org8844f8a">ZIP Init: representation rooted in real communities</h3>
+</section>
+<section id="slide-orgd6ee5a3" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="orgd6ee5a3">Why ZIP codes?</h3>
+</section>
+<section id="slide-orgeb0b8fe" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="orgeb0b8fe">What this changes</h3>
+</section>
+<section id="slide-org0956f9c" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="org0956f9c">Objections and answers</h3>
+</section>
+<section id="slide-org487bd57" data-background="./wpl-ai.png" data-background-size="cover" data-background-position="center" data-background-repeat="no-repeat">
+<h3 id="org487bd57">Closing: Election integrity is incomplete without representation integrity</h3>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+slideNumber:true, hash:true, controls:true, progress:true, center:true,
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
