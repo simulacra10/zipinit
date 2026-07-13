@@ -3,6 +3,9 @@
 #+AUTHOR: Norman Bauer
 #+DATE: \today
 
+# WIP: not ready to go live. noindex until finished and intentionally linked.
+#+HTML_HEAD: <meta name="robots" content="noindex, nofollow"/>
+
 #+OPTIONS: toc:nil num:nil reveal_width:1200 reveal_height:700
 
 #+REVEAL_THEME: white
@@ -89,7 +92,7 @@
 #+HTML_HEAD: }
 #+HTML_HEAD: </style>
 
-* Representation Integrity
+** Representation Integrity
 
 ** About The ZIP Apportionmet Initiative
 #+BEGIN_SRC javascript
@@ -135,6 +138,9 @@
 |       |                       |        | 20852 | Rockville             | 48,180 |       |                       |        |
 
 #+REVEAL_HTML: </div>
+** The Split Represenative
+District #1 - Andy Harris
+[[file:./district-1.svg]]
 ** The problem is not only election integrity
 ** Representation has been diluted
 ** District lines create political power
