@@ -21,6 +21,18 @@ Notes:
 
 Political boundaries are drawn around populations at the discretion of the very actors they stand to benefit.
 
+Modern representative democracy begins with an assumption that is so familiar
+it often goes unnoticed:
+
+
+Political boundaries must periodically be redrawn.
+
+Should legislatures draw them?
+Should citizen commissions draw them?
+
+
+
+
 ** A Different Premise
 
 Working idea:
@@ -33,7 +45,9 @@ geography through which representation is determined.
 ** Principle 1 — Representation begins with stable communities
 
 Notes:
-Communities are not arbitrary. They are geographiclly tied. In some cases the community that has arisen has gone to war to preserve their bond.
+Communities are rarely arbitrary. More often than not they emerge naturally around something—a church, an industry, a crossroads, a harbor, or some other common gathering place. Over time, a culture grows from those shared experiences. Schools, restaurants, local businesses, sports teams, civic organizations, and neighborhood traditions all reinforce the identity of the community and the bonds between the people who live there.
+
+ZIP codes are one of the easiest ways to see this bond. They are not what creates the community; they are simply one of the clearest ways to recognize where many communities already exist
 
 ** Principle 2 — Population equality remains a design constraint
 
