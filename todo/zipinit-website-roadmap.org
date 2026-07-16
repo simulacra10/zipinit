@@ -1,0 +1,449 @@
+#+TITLE: ZIPINIT Website Improvement Roadmap
+#+AUTHOR: Norman Bauer
+#+STARTUP: overview
+#+TODO: TODO NEXT IN-PROGRESS WAITING | DONE CANCELED
+#+OPTIONS: toc:2 num:nil
+
+* Purpose
+
+This file tracks the work needed to strengthen ZIPINIT's explanation of ZIP apportionment, resolve inconsistencies across the site, and directly answer the four strongest objections:
+
+1. Politicization or manipulation of ZIP geography
+2. Population equality and one person, one vote
+3. Legislature size, cost, and practicality
+4. Discretion in subdividing and combining ZIPs
+
+* Priority Overview
+
+** IN-PROGRESS Establish one canonical proposal file:first-principles.org
+** TODO Create the authoritative "How ZIP Apportionment Works" page
+** TODO Develop mechanical subdivision and combination rules
+** TODO Build a complete Maryland simulation
+** TODO Rewrite the FAQ around the strongest objections
+
+* Phase 1 — Establish a Single Canonical Proposal
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Every page on ZIPINIT describes the same system.
+
+** TODO Finalize the canonical proposal
+
+- [ ] ZIPs are the base geographic unit.
+- [ ] Population equality remains a binding design constraint.
+- [ ] Large ZIPs receive additional representation through predetermined rules.
+- [ ] Small ZIPs may be combined using predetermined rules.
+- [ ] Administrators execute fixed rules rather than design constituencies.
+
+** TODO Replace outdated language site-wide
+
+- [ ] Replace "one representative per ZIP" language.
+- [ ] Replace "representation by ZIP rather than population."
+- [ ] Remove language suggesting population variance is inherently a feature.
+- [ ] Clarify that ZIP geography is the starting point, not the sole determinant.
+- [ ] Clarify that the proposal preserves constitutionally required population balance.
+
+** TODO Audit and update core pages
+
+- [ ] Homepage
+- [ ] Five Minute Case / Brief
+- [ ] Representation Is Broken
+- [ ] Main Essay
+- [ ] Louisiana v. Callais article
+- [ ] Existing FAQ
+- [ ] Slides
+- [ ] Graphics
+- [ ] Downloadable PDFs
+- [ ] Social media copy using outdated language
+
+* Phase 2 — Create the Authoritative Explanation
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Create a single technical reference page that all other pages can link to.
+
+** TODO Create "How ZIP Apportionment Works"
+
+Include:
+
+- [ ] Geographic framework
+- [ ] Population allocation
+- [ ] Large-ZIP rules
+- [ ] Small-ZIP rules
+- [ ] Subdivision rules
+- [ ] Combination rules
+- [ ] Census update cycle
+- [ ] Election administration
+- [ ] Public data and transparency requirements
+- [ ] Appeals and dispute resolution
+
+** TODO Add internal links from other pages
+
+- [ ] Homepage
+- [ ] Brief
+- [ ] Main Essay
+- [ ] Policy papers
+- [ ] FAQ
+- [ ] Representation Is Broken
+- [ ] Louisiana v. Callais
+
+* Phase 3 — Geographic Integrity
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Explain why ZIP geography cannot simply become another redistricting process.
+
+** TODO Create "Geographic Integrity" page
+
+- [ ] Explain USPS ZIP Codes versus Census ZCTAs.
+- [ ] Select the authoritative geographic dataset.
+- [ ] Explain why that dataset is chosen.
+- [ ] Define a geographic freeze date.
+- [ ] Define the update schedule.
+- [ ] Explain how new ZIPs are handled.
+- [ ] Explain how retired ZIPs are handled.
+- [ ] Explain cross-county ZIPs.
+- [ ] Explain cross-state ZIPs.
+- [ ] Explain dataset discrepancies.
+- [ ] Explain permitted technical corrections.
+- [ ] Prohibit political and electoral criteria.
+- [ ] Define public versioning and archival requirements.
+- [ ] Define dispute resolution.
+
+** TODO Adopt consistent site-wide wording
+
+Preferred concept:
+
+"ZIP apportionment does not make manipulation impossible. It sharply narrows where manipulation can occur and makes departures from an external geographic baseline visible and reviewable."
+
+** TODO Add core principle
+
+"Administrators execute the law. They do not draw districts."
+
+* Phase 4 — Population Equality
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Show that ZIP geography can coexist with one person, one vote.
+
+** TODO Create "Population Equality" page
+
+- [ ] Explain why equal voting power matters.
+- [ ] Distinguish population equality from district geometry.
+- [ ] Explain why perfect mathematical equality is impossible.
+- [ ] Explain constitutionally acceptable population deviation.
+- [ ] Explain the statewide target population per delegate.
+- [ ] Explain how seats are allocated.
+- [ ] Explain how populous ZIPs receive additional representation.
+- [ ] Explain how very small ZIPs are combined.
+- [ ] Explain how all deviations are calculated and published.
+
+** TODO Add worked examples
+
+- [ ] Tiny rural ZIP
+- [ ] Average ZIP
+- [ ] Large suburban ZIP
+- [ ] Baltimore ZIP
+- [ ] Easton example
+
+** TODO Add consistent explanatory language
+
+"ZIP apportionment does not mean every ZIP receives identical representation regardless of population. It means ZIP geography—not a blank map—is the starting point."
+
+* Phase 5 — Mechanical Rules
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Ensure that different administrators applying the same rules produce essentially the same result.
+
+** TODO Create "Exception Rules" page
+
+** TODO Define large-ZIP rules
+
+- [ ] When a ZIP receives another representative
+- [ ] When a ZIP must be subdivided
+- [ ] Whether Census blocks are the subdivision unit
+- [ ] Contiguity requirements
+- [ ] Population deviation requirements
+- [ ] Municipal boundary preferences
+- [ ] Prohibition on electoral and incumbent data
+- [ ] Deterministic tie-breaking sequence
+- [ ] Public source code and input data
+- [ ] Public output maps
+
+** TODO Define small-ZIP rules
+
+- [ ] Minimum population threshold
+- [ ] Adjacency requirement
+- [ ] County boundary preference
+- [ ] Municipal boundary preference
+- [ ] Smallest-number-of-ZIPs rule
+- [ ] Fixed adjacency ranking
+- [ ] Deterministic tie-breaking sequence
+- [ ] Prohibition on partisan cherry-picking
+
+** TODO Define update rules
+
+- [ ] Census cycle
+- [ ] Population refresh schedule
+- [ ] Geographic refresh schedule
+- [ ] Transitional rules
+- [ ] Treatment of technical corrections
+- [ ] Treatment of major demographic change between censuses
+
+* Phase 6 — Maryland Simulation
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Turn the proposal into a concrete, testable Maryland model.
+
+** TODO Build statewide simulation
+
+- [ ] Select population dataset.
+- [ ] Select geographic dataset.
+- [ ] Select target population per delegate.
+- [ ] Define allowable deviation.
+- [ ] Apply large-ZIP rules.
+- [ ] Apply small-ZIP rules.
+- [ ] Calculate final House size.
+- [ ] Calculate average constituency population.
+- [ ] Calculate minimum and maximum constituency population.
+- [ ] Calculate statewide deviation.
+- [ ] Document every exception.
+
+** TODO Publish summary statistics
+
+- [ ] Number of residential ZIPs
+- [ ] Number of represented ZIP-based units
+- [ ] Number of combined ZIP groups
+- [ ] Number of subdivided ZIPs
+- [ ] Total delegates
+- [ ] ZIPs receiving one delegate
+- [ ] ZIPs receiving two delegates
+- [ ] ZIPs receiving three or more delegates
+- [ ] Average constituents per delegate
+- [ ] Maximum positive deviation
+- [ ] Maximum negative deviation
+
+** TODO Create visual comparisons
+
+- [ ] Existing Maryland legislative districts
+- [ ] ZIP-based geographic framework
+- [ ] Final simulated constituencies
+- [ ] Large-ZIP subdivision examples
+- [ ] Small-ZIP combination examples
+
+* Phase 7 — Legislature Practicality
+:PROPERTIES:
+:PRIORITY: B
+:END:
+
+Goal: Explain how a larger legislature would function and what it would cost.
+
+** TODO Create "Legislature Practicality" page
+
+- [ ] Estimated House size
+- [ ] Comparison with current 141-member House
+- [ ] Salary costs
+- [ ] Staff costs
+- [ ] Office costs
+- [ ] Chamber-space implications
+- [ ] Committee structure
+- [ ] Committee membership size
+- [ ] Floor debate procedures
+- [ ] Voting procedures
+- [ ] Constituent workload
+- [ ] District office structure
+- [ ] Part-time versus full-time service
+- [ ] Senate structure under the proposal
+- [ ] Comparison with New Hampshire
+
+** TODO State the tradeoff clearly
+
+"A larger legislature is not an accidental byproduct of the proposal. Smaller constituencies require more representatives. The relevant question is whether the additional cost and complexity purchase enough accountability, accessibility, and resistance to capture to justify them."
+
+* Phase 8 — Constitutional Analysis
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Separate philosophical arguments from legal requirements.
+
+** TODO Create "Constitutional Questions" page
+
+- [ ] Maryland Constitution
+- [ ] Equal Protection Clause
+- [ ] One person, one vote doctrine
+- [ ] Reynolds v. Sims
+- [ ] Voting Rights Act
+- [ ] Racial vote dilution
+- [ ] Population deviation standards
+- [ ] State constitutional amendment requirements
+- [ ] Changes possible by statute
+- [ ] Changes requiring constitutional amendment
+- [ ] Potential litigation risks
+- [ ] Judicial review standards
+
+** TODO Add citations and footnotes
+
+- [ ] Cases
+- [ ] Statutes
+- [ ] Maryland constitutional provisions
+- [ ] Census documentation
+- [ ] USPS documentation
+
+* Phase 9 — FAQ Rewrite
+:PROPERTIES:
+:PRIORITY: A
+:END:
+
+Goal: Lead with the hardest objections rather than the easiest questions.
+
+** TODO Rewrite and reorder FAQ
+
+- [ ] Doesn't this violate one person, one vote?
+- [ ] Aren't ZIPs political too?
+- [ ] Doesn't the USPS control ZIPs?
+- [ ] Who decides when a ZIP is divided?
+- [ ] Who decides when small ZIPs are combined?
+- [ ] How many delegates would Maryland have?
+- [ ] Would it cost more?
+- [ ] Would this eliminate all gerrymandering?
+- [ ] Why not independent commissions?
+- [ ] Why not ranked-choice voting?
+- [ ] Why not proportional representation?
+- [ ] What happens when ZIP boundaries change?
+- [ ] Are you using ZIP Codes or ZCTAs?
+- [ ] Would county or municipal boundaries be preserved?
+- [ ] How would Voting Rights Act compliance be handled?
+
+* Phase 10 — Visual Material
+:PROPERTIES:
+:PRIORITY: B
+:END:
+
+Goal: Make the proposal easier to understand at a glance.
+
+** TODO Create diagrams and graphics
+
+- [ ] Current system versus ZIP framework
+- [ ] ZIP subdivision flowchart
+- [ ] Small-ZIP combination flowchart
+- [ ] Population allocation diagram
+- [ ] Census-to-election timeline
+- [ ] Geographic lock illustration
+- [ ] "Who draws the lines?" comparison
+- [ ] Before-and-after Maryland map
+- [ ] Large ZIP worked example
+- [ ] Small ZIP worked example
+
+* Phase 11 — Data and Evidence
+:PROPERTIES:
+:PRIORITY: B
+:END:
+
+Goal: Support the proposal with measurable evidence.
+
+** TODO Assemble Maryland data
+
+- [ ] ZIP population statistics
+- [ ] Population distribution chart
+- [ ] Current district population statistics
+- [ ] Number of current district splits
+- [ ] Number of municipalities split
+- [ ] Number of counties split
+- [ ] Estimated House-size scenarios
+- [ ] Population deviation tables
+- [ ] Cost scenarios
+- [ ] Constituent-to-representative ratios
+
+** TODO Research geographic stability
+
+- [ ] Historical ZIP changes
+- [ ] ZCTA changes between censuses
+- [ ] New ZIP creation frequency
+- [ ] ZIP retirement frequency
+- [ ] Boundary-change frequency
+- [ ] Maryland-specific ZIP history
+
+* Phase 12 — Long-Term Research
+:PROPERTIES:
+:PRIORITY: C
+:END:
+
+** TODO Develop future policy papers
+
+- [ ] Federal ZIP or county-based representation
+- [ ] County council representation
+- [ ] Municipal adaptation
+- [ ] State Senate alternatives
+- [ ] Historical evolution of representation
+- [ ] International comparisons
+- [ ] Algorithmic simulation methods
+- [ ] Comparison with independent commissions
+- [ ] Comparison with ranked-choice voting
+- [ ] Comparison with proportional representation
+
+* Immediate Next Actions
+
+** NEXT Write the canonical one-paragraph definition
+
+Draft a concise paragraph that defines ZIP apportionment consistently for every page.
+
+** NEXT Create a site-wide language replacement list
+
+Track old phrases and approved replacements.
+
+** NEXT Draft "How ZIP Apportionment Works"
+
+Start with a plain-language outline before writing the full page.
+
+** NEXT Draft the mechanical exception rules
+
+Focus first on large ZIPs and small ZIPs.
+
+** NEXT Begin the Maryland simulation specification
+
+Define required datasets, calculations, and outputs before building the model.
+
+* Site-Wide Language Guide
+
+** Avoid
+
+- "One representative per ZIP"
+- "Representation by ZIP rather than population"
+- "ZIPs cannot be gerrymandered"
+- "Population variance is a feature, not a defect"
+- "ZIP boundaries are fixed"
+- "The USPS has no influence over the system"
+
+** Prefer
+
+- "ZIP geography is the starting point for representation."
+- "Population equality remains a binding design constraint."
+- "Large and small ZIP exceptions follow predetermined rules."
+- "ZIP apportionment sharply limits discretionary line-drawing."
+- "The controlling geography is legally frozen for each apportionment cycle."
+- "Administrators execute the rule rather than design the constituency."
+- "The proposal narrows and exposes opportunities for manipulation rather than claiming to eliminate every possible abuse."
+
+* Definition of Done
+
+The website will be ready for a serious policy audience when:
+
+- [ ] Every page describes the same proposal.
+- [ ] The four strongest objections are addressed directly.
+- [ ] The geographic dataset and freeze rules are explicit.
+- [ ] The population allocation formula is explicit.
+- [ ] The subdivision and combination rules are explicit.
+- [ ] A complete Maryland simulation is published.
+- [ ] Legislature size and cost are quantified.
+- [ ] Constitutional issues are cited and addressed.
+- [ ] The FAQ leads with the hardest questions.
+- [ ] No major page relies on outdated "one ZIP, one delegate" language.

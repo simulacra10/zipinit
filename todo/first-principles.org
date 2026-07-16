@@ -1,0 +1,201 @@
+#+TITLE: First Principles of ZIP Apportionment
+#+SUBTITLE: A Foundational Manifesto
+#+AUTHOR: Norman Bauer
+#+STARTUP: overview
+#+OPTIONS: toc:2 num:nil
+
+* Purpose
+
+This document defines the philosophical foundation of ZIP Apportionment.
+
+It is intentionally separate from implementation details, legal analysis,
+and policy mechanics. Its purpose is to answer one question:
+
+**What problem is ZIP Apportionment actually trying to solve?**
+
+* The Core Problem
+
+** Traditional View
+
+Notes:
+
+Political boundaries are drawn around populations at the discretion of the very actors they stand to benefit.
+
+** A Different Premise
+
+Working idea:
+
+Political actors should not possess broad discretion to create the
+geography through which representation is determined.
+
+* First Principles
+
+** Principle 1 — Representation begins with stable communities
+
+Notes:
+Communities are not arbitrary. They are geographiclly tied. In some cases the community that has arisen has gone to war to preserve their bond.
+
+** Principle 2 — Population equality remains a design constraint
+
+Notes:
+
+** Principle 3 — Human discretion should be minimized
+
+Notes:
+
+** Principle 4 — Rules should be deterministic
+
+Notes:
+
+** Principle 5 — Communities should remain recognizable over time
+
+Notes:
+
+** Principle 6 — The public should be able to understand and audit the system
+
+Notes:
+
+* Working Definition
+
+Draft:
+
+ZIP Apportionment is a method of legislative representation that uses
+stable ZIP-based communities as the foundation for electoral geography
+while maintaining constitutionally required population equality through
+predetermined, publicly verifiable rules.
+
+Notes:
+
+* The Design Objective
+
+** Representational Integrity
+
+Working definition:
+
+Representational Integrity exists when a representative system:
+
+- is based upon externally defined geography
+- maintains constitutionally acceptable population equality
+- minimizes discretionary political decisions
+- applies deterministic rules
+- remains transparent and publicly auditable
+- produces stable, recognizable communities
+
+Expand each point.
+
+* ZIP Apportionment vs. Representational Integrity
+
+Relationship:
+
+Representational Integrity is the objective.
+
+ZIP Apportionment is one implementation designed to achieve it.
+
+Questions:
+
+- Is ZIP Apportionment the only possible implementation?
+- Why are ZIPs currently the preferred implementation?
+- Which characteristics matter most?
+
+* Why ZIPs?
+
+Candidate characteristics:
+
+- Familiar to citizens
+- Already exist
+- Non-political origin
+- Publicly available
+- Reasonably stable
+- Already used by government
+- Already used by the Census
+- Easily recognizable communities
+
+For each characteristic:
+
+- Why does it matter?
+- Are there exceptions?
+- Could another predefined geography satisfy the same requirement?
+
+* What ZIP Apportionment Is
+
+- A proposal for predetermined geographic apportionment.
+- A system that begins with existing communities.
+- A method that sharply limits discretionary map drawing.
+- A framework for achieving Representational Integrity.
+
+* What ZIP Apportionment Is Not
+
+- Not simply "one representative per ZIP."
+- Not an argument against population equality.
+- Not opposition to independent commissions.
+- Not opposition to ranked-choice voting.
+- Not a federal proposal by definition.
+- Not a proposal about repealing the Seventeenth Amendment.
+- Not a claim that manipulation becomes impossible.
+
+* The Philosophy
+
+Why should predetermined geography be preferred over repeatedly
+redrawing political boundaries?
+
+Notes:
+
+* The Policy Implications
+
+How do the first principles influence:
+
+** State legislatures
+
+Notes:
+
+** Counties
+
+Notes:
+
+** Municipal governments
+
+Notes:
+
+** Federal representation
+
+Notes:
+
+* Open Questions
+
+- What geographic unit should be authoritative?
+- Under what circumstances should exceptions be permitted?
+- How much discretion is acceptable?
+- What level of population deviation is appropriate?
+- What makes a community politically recognizable?
+
+* Future Companion Documents
+
+- How ZIP Apportionment Works
+- Geographic Integrity
+- Population Equality
+- Mechanical Rules
+- Maryland Simulation
+- Constitutional Questions
+- Legislature Practicality
+- Frequently Asked Questions
+
+* Canonical Language
+
+** Preferred
+
+- "ZIP geography is the starting point for representation."
+- "Representation begins with predetermined geographic units."
+- "Population equality remains a binding design constraint."
+- "Administrators execute rules rather than design constituencies."
+- "ZIP Apportionment narrows discretionary line drawing."
+
+** Avoid
+
+- "One representative per ZIP."
+- "Representation by ZIP instead of population."
+- "ZIPs cannot be gerrymandered."
+- "Population variance is a feature."
+
+* Appendix
+
+Ideas, quotations, references, and future notes.
