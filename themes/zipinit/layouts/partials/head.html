@@ -2,6 +2,7 @@
 {{- $ogImageURL := printf "%s%s" site.BaseURL (strings.TrimPrefix "/" $ogImage) -}}
 {{- $ogDescription := .Params.ogDescription | default .Description -}}
 {{- $twitterDescription := .Params.twitterDescription | default .Description -}}
+{{- $style := resources.Get "css/style.css" | resources.Fingerprint "sha256" -}}
 <meta charset="utf-8">
 <title>{{ if .Params.browserTitle }}{{ .Params.browserTitle }}{{ else }}{{ .Title }}{{ end }}</title>
 
@@ -9,7 +10,7 @@
 <link rel="ai-documentation" href="/ai.txt">
 <link rel="llms-policy" href="/llms.txt">
 {{ end }}
-<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/static/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
