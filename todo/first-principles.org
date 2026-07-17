@@ -13,6 +13,52 @@ and policy mechanics. Its purpose is to answer one question:
 
 **What problem is ZIP Apportionment actually trying to solve?**
 
+* Representation Definition
+
+** The Properties of Representation
+1. Must have a constituency.
+   A represenative must have someone or some group to represent.
+2. Must have authorization.
+   The represenative must be authorized by contract or vote. 
+3. Must have agency.
+   The representative must possess actual authority to speak, vote, deliberate, or act on behalf of the constituency.
+   A person without institutional power may be an advocate, but not a political representative in the full sense.
+4. Must be accountable.
+   Authorization creates the relationship; accountability maintains it.
+
+
+** The Properties of Represenationl Integrity
+
+*** What is Representational Integrity
+Representational integrity is the degree to which a political system preserves a clear, stable, comprehensible, and accountable relationship between a community and the person empowered to represent it.
+
+*** What makes Representation Integrity
+1. Identifiable
+2. Traceability
+3. Stability
+4. Community Fidelity
+5. Granularity
+6. Accountability Precision
+7. Rule determinacy
+8. Reproducibility
+9. Legibility
+10. Resistance to manipulation
+
+
+** The Core Framework
+
+| Property               | Precise meaning                                              | ZIP extension                                               |
+| ---------------------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
+| **Identifiability**    | Citizens can identify their constituency and representative  | Uses familiar, named geographic units                       |
+| **Community fidelity** | Constituencies correspond to lived communities               | Begins with existing community geography                    |
+| **Stability**          | Constituencies remain recognizable over time                 | Avoids complete decennial reconstruction                    |
+| **Granularity**        | Local differences remain politically visible                 | Creates higher-resolution representation                    |
+| **Determinacy**        | Assignments follow public rules rather than discretion       | Replaces discretionary line-drawing with a formula          |
+| **Accountability**     | Responsibility between community and representative is clear | Creates a more direct representative-community relationship |
+
+*** Summary
+ZIP apportionment is not merely another way to draw districts. It extends the functional properties of representation. It makes representation more geographically precise, more stable, more reproducible, and more closely anchored to recognizable communities.
+
 * The Core Problem
 
 ** Traditional View
@@ -32,7 +78,6 @@ Should citizen commissions draw them?
 
 
 
-
 ** A Different Premise
 
 Working idea:
@@ -45,6 +90,7 @@ geography through which representation is determined.
 ** Principle 1 — Representation begins with stable communities
 
 Notes:
+
 Communities are rarely arbitrary. More often than not they emerge naturally around something—a church, an industry, a crossroads, a harbor, or some other common gathering place. Over time, a culture grows from those shared experiences. Schools, restaurants, local businesses, sports teams, civic organizations, and neighborhood traditions all reinforce the identity of the community and the bonds between the people who live there.
 
 ZIP codes are one of the easiest ways to see this bond. They are not what creates the community; they are simply one of the clearest ways to recognize where many communities already exist
