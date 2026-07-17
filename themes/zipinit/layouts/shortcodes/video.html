@@ -1,0 +1,7 @@
+<section class="video">
+<video controls width="100%">
+<source src="{{ .Get "src" }}" type="video/mp4">
+{{ with .Get "vtt" }}<track kind="captions" src="{{ . }}" srclang="en" label="English" default>{{ end }}
+Your browser does not support the video tag.
+</video>
+</section>

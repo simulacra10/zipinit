@@ -2,59 +2,113 @@
 
 Source for [zipinit.org](https://zipinit.org) — a volunteer, outcome-bound
 initiative advancing ZIP-code-based legislative apportionment, beginning
-with Maryland. See `charter.html` for the project's purpose and structure,
-and `contact.html` for how to reach it.
+with Maryland. See `content/charter.md` for the project's purpose and
+structure, and `content/contact.md` for how to reach it.
 
-This is a plain, hand-authored static site. No build step, no framework —
-HTML files with a shared stylesheet, deployed as-is. The site is undesigned by design. The focus is on the content. 
+The site is built with [Hugo](https://gohugo.io) using a bespoke, non-reusable
+theme (`themes/zipinit/`). The undesigned-by-design visual identity is
+unchanged from the original hand-authored site — Hugo just replaced hand-copied
+HTML boilerplate with shared templates and Markdown content. The focus is
+still on the content.
 
 ## Hosting
 
 - **GitHub Pages**, custom domain via `CNAME` (`zipinit.org`), proxied
   through **Cloudflare**.
-- `.nojekyll` is required at the repo root — GitHub Pages runs Jekyll by
-  default, which silently drops dotfiles/dot-directories (`.well-known/`
-  in particular). Don't remove it.
-- Pushing to `main` is what ships to production.
+- Deployed via **GitHub Actions** (`.github/workflows/hugo.yml`): every push
+  to `main` builds the site with Hugo and publishes it through Pages' native
+  Actions integration. The repo's Pages source setting must be set to
+  "GitHub Actions" (Settings → Pages → Source) for this to work.
+- The `CNAME` file lives in `static/CNAME` so it's copied into `public/`
+  (and therefore into the deployed artifact) on every build — the custom
+  domain mapping depends on `CNAME` reaching the deployed site, not on a
+  bare file sitting in the repo. There's also an inert copy at the repo
+  root, which doesn't affect deployment but is otherwise harmless.
+- `.nojekyll` lives in `static/.nojekyll` for the same reason — Hugo copies
+  it into the built artifact, where it prevents GitHub Pages from running a
+  Jekyll pass that would silently drop `.well-known/`.
+- Nothing is committed to git except source — `public/` is gitignored and
+  only ever exists as a local preview or as the Actions build artifact.
 
 ## Layout
 
+The Hugo project lives directly at the repo root; `hugo build` (or bare
+`hugo`) writes generated output to `public/` (Hugo's default `publishDir`,
+gitignored):
+
 ```
-index.html, brief.html, essay.html, charter.html,       # core pages
-representation-is-broken.html, louisiana-v-callais.html,
-contact.html
-template.html                                            # starting point for new pages
-static/style.css                                         # shared stylesheet
-policy-papers/<slug>/                                     # long-form comparison papers,
-                                                            # each in .org/.html/.md/.txt/.pdf/.zip
-pamphlets/<slug>/                                          # condensed flyer versions
-mp3-mp4/, ai/                                              # media and AI-briefing docs
-robots.txt, sitemap.xml, ai.txt, llms.txt                 # crawlability / AI discoverability
-.well-known/security.txt, .well-known/openpgpkey/         # RFC 9116 + WKD (see contact.html)
-seo-audit.org                                              # SEO/GEO audit findings and status
-CHANGELOG.md                                               # reconstructed project history
+hugo.toml                                   # config
+content/                                    # Markdown source
+  _index.md, brief.md, essay.md, charter.md,
+  representation-is-broken.md, louisiana-v-callais.md, contact.md
+  policy-papers/<slug>/index.md             # long-form comparison papers
+  pamphlets/<slug>/index.md                 # condensed flyer versions
+themes/zipinit/                             # the theme: layouts, partials, shortcodes, style.css
+archetypes/default.md                       # starting point for new pages (`hugo new <path>.md`)
+
+static/                                     # passthrough SOURCE files (robots.txt, sitemap.xml,
+                                             #   ai.txt, llms.txt, CNAME, .nojekyll, preview.jpg,
+                                             #   .well-known/, ai/, mp3-mp4/, presentations/, and
+                                             #   each policy-paper/pamphlet's non-HTML export
+                                             #   formats) — Hugo copies these into public/ as-is
+
+public/                                     # GENERATED, gitignored — never commit this
+.github/workflows/hugo.yml                  # builds + deploys public/ on every push to main
+todo/                                       # project notes, not site content
 ```
+
+## Building
+
+CI handles production builds and deploys on every push to `main` — there's
+nothing to run manually to ship a change. Locally, `hugo` (or `hugo build`)
+regenerates `public/` for previewing before you push:
+
+```
+hugo
+python3 -m http.server 8934 -d public
+```
+
+`hugo build` does not delete stale output in `public/` on its own between
+runs, but since `public/` is never committed this doesn't matter in
+practice — delete it and rebuild if you want a truly clean output
+(`rm -rf public && hugo`).
 
 ## Conventions
 
-- **New pages**: start from `template.html` — it already has the
-  canonical `<link>`, breadcrumb, footer contact link, and stamp
-  conventions the rest of the site uses. Fill in the placeholders.
-- **Structured data**: every real page carries JSON-LD tying back to the
-  same `Organization`/`WebSite` entities and the `DefinedTerm` for "ZIP
-  apportionment" (canonically defined on `essay.html`). Keep `@id`s
-  consistent when adding new pages.
-- **Sitemap**: every page and downloadable file gets an entry in
-  `sitemap.xml` with `lastmod`. Nothing should be reachable-but-orphaned.
+- **New pages**: `hugo new <path>.md` (uses `archetypes/default.md`), or copy
+  an existing content file's front matter as a starting point. Top-level pages
+  need an explicit `url:` front matter field to land at their historical path
+  (e.g. `url: /brief.html`) instead of Hugo's default directory-style permalink.
+- **Structured data**: `themes/zipinit/layouts/partials/jsonld.html`
+  emits JSON-LD for every page, tying back to the same `Organization`/`WebSite`
+  entities and the `DefinedTerm` for "ZIP apportionment" (canonically defined
+  in `content/essay.md`). Front matter (`jsonldType`, `jsonldDatePublished`,
+  `jsonldDateModified`, `jsonldAbout`) controls which shape a given page gets
+  — see existing content files for examples.
+- **Shortcodes**: recurring semantic blocks (`hero`, `cta`, `callout`, `meta`,
+  `formats`, `citation`, `video`) live in `themes/zipinit/layouts/shortcodes/`
+  and wrap raw HTML in `.Inner` — matching the site's existing CSS classes in
+  `style.css` rather than introducing new markup.
+- **Footnotes**: use native Markdown footnote syntax (`[^1]` ... `[^1]: ...`) —
+  Goldmark's built-in footnote rendering already carries the `.footnotes` CSS
+  class this site's stylesheet targets.
+- **Sitemap**: `sitemap.xml` is hand-maintained (not Hugo-generated — Hugo's
+  built-in sitemap doesn't know about the PDFs/media/org files this site lists).
+  Every page and downloadable file gets an entry with `lastmod`. Nothing should
+  be reachable-but-orphaned.
 - **Contact info**: the canonical address is `expand@zipinit.org`. A PGP
   key is published three ways (download, inline, WKD) — see
-  `contact.html` if it ever needs rotating.
+  `content/contact.md` if it ever needs rotating.
 
 ## Policy papers (multi-format publishing)
 
-Long-form papers under `policy-papers/<slug>/` are authored once in
-Emacs org-mode and exported to every other format from that single
-source, so re-exports stay consistent:
+Long-form papers are authored once in Emacs org-mode and exported to every
+other format from that single source, so re-exports stay consistent. The
+`.org`/`.md`/`.txt`/`.pdf`/`.zip` exports live in
+`static/policy-papers/<slug>/` (pamphlets: `static/pamphlets/<slug>/`)
+as static passthrough files — Hugo would otherwise try to parse `.org`/`.md`
+siblings as their own content pages if they lived next to `index.md`. Rebuild
+and re-copy them there after regenerating any individual format:
 
 ```
 emacs --batch paper.org --eval "(require 'ox-md)"    -f org-md-export-to-markdown
@@ -86,20 +140,20 @@ Notes for anyone editing a paper's `.org` source:
   draw a visible box around every link. Chrome's built-in viewer hides
   these by default regardless, which can mask the problem during a quick
   check.
-- The `.html` version is hand-assembled from org's own HTML export
-  (extracted and restructured to match the site's template/breadcrumb/
-  TOC/footnote conventions) rather than published as org's raw output.
+- The `.html` version is the Hugo-rendered `index.md` (see
+  `content/policy-papers/<slug>/index.md`), hand-converted from org's
+  HTML export to Markdown + shortcodes rather than published as org's raw
+  output.
 - Rebuild the `.zip` bundle after regenerating any individual format.
 
 ## Local preview
 
-No build step — just serve the directory:
+For a quick live-reloading preview while editing, use Hugo's own dev server
+(serves from a temporary in-memory/on-disk render, never touches `public/`):
 
 ```
-python3 -m http.server 8934
+hugo server
 ```
 
-## History
-
-See `CHANGELOG.md` for a reconstructed, dated history of the project, and
-`seo-audit.org` for the standing SEO/GEO audit and what's been resolved.
+Then open `http://localhost:1313`. To check the exact production build
+instead (see Building, above), serve `public/` directly after running `hugo`.

@@ -1,0 +1,39 @@
+{{- $ogImage := .Params.ogImage | default site.Params.ogImage -}}
+{{- $ogImageURL := printf "%s%s" site.BaseURL (strings.TrimPrefix "/" $ogImage) -}}
+{{- $ogDescription := .Params.ogDescription | default .Description -}}
+{{- $twitterDescription := .Params.twitterDescription | default .Description -}}
+<meta charset="utf-8">
+<title>{{ if .Params.browserTitle }}{{ .Params.browserTitle }}{{ else }}{{ .Title }}{{ end }}</title>
+
+{{ if .IsHome }}
+<link rel="ai-documentation" href="/ai.txt">
+<link rel="llms-policy" href="/llms.txt">
+{{ end }}
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/static/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ .Description }}">
+{{ with .Params.metaAuthor }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with .Params.metaRobots }}<meta name="robots" content="{{ . }}">{{ end }}
+
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ $ogDescription }}">
+<meta property="og:type" content="{{ .Params.ogType | default "article" }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $ogImageURL }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ $twitterDescription }}">
+<meta name="twitter:image" content="{{ $ogImageURL }}">
+
+{{ if .IsHome }}
+<script data-goatcounter="https://zipinit.goatcounter.com/count"
+      async src="//gc.zgo.at/count.js"></script>
+{{ end }}
+
+{{ partial "jsonld.html" . }}

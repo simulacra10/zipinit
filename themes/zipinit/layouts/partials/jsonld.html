@@ -1,0 +1,50 @@
+{{- $orgID := "https://zipinit.org/#organization" -}}
+{{- $siteID := "https://zipinit.org/#website" -}}
+{{- $termID := "https://zipinit.org/#term-zip-apportionment" -}}
+{{- $essayURL := "essay.html" | absURL -}}
+{{- $org := dict "@type" "Organization" "@id" $orgID "name" site.Params.organizationName "url" site.BaseURL -}}
+{{- $pub := dict "@type" "Organization" "@id" $orgID "name" site.Params.organizationName "url" site.BaseURL -}}
+{{- $isPartOf := dict "@type" "WebSite" "@id" $siteID "name" site.Title "url" site.BaseURL -}}
+{{- $about := dict "@type" "DefinedTerm" "@id" $termID "name" "ZIP apportionment" "description" "A model of legislative representation in which each U.S. Postal Service ZIP code elects one representative, replacing population-based electoral districts drawn by legislatures." "url" $essayURL -}}
+{{- $indent := dict "indent" "  " -}}
+
+{{ if .IsHome }}
+  {{- $orgNode := dict "@type" "Organization" "@id" $orgID "name" site.Params.organizationName "url" site.BaseURL "description" "A volunteer, outcome-bound initiative advancing ZIP-code-based legislative apportionment, beginning with Maryland." "email" (printf "mailto:%s" site.Params.organizationEmail) "sameAs" (slice site.Params.githubURL) -}}
+  {{- $siteNode := dict "@type" "WebSite" "@id" $siteID "url" site.BaseURL "name" site.Title "description" .Description "inLanguage" "en" "publisher" $pub -}}
+  {{- $termNode := dict "@type" "DefinedTerm" "@id" $termID "name" "ZIP apportionment" "alternateName" (slice "ZIP-code apportionment" "ZIP Code Apportionment") "description" "A model of legislative representation in which each U.S. Postal Service ZIP code elects one representative, replacing population-based electoral districts drawn by legislatures." "url" $essayURL "inDefinedTermSet" site.BaseURL -}}
+  {{- $graph := dict "@context" "https://schema.org" "@graph" (slice $orgNode $siteNode $termNode) -}}
+<script type="application/ld+json">
+{{ jsonify $indent $graph | safeJS }}
+</script>
+
+{{ else if eq .Params.jsonldType "contactpage" }}
+  {{- $node := dict "@context" "https://schema.org" "@type" "ContactPage" "@id" .Permalink "name" .Title "description" .Description "url" .Permalink "inLanguage" "en" "about" $org "publisher" $pub "isPartOf" $isPartOf -}}
+<script type="application/ld+json">
+{{ jsonify $indent $node | safeJS }}
+</script>
+
+{{ else if eq .Params.jsonldType "creativework" }}
+  {{- $node := dict "@context" "https://schema.org" "@type" "CreativeWork" "@id" .Permalink "name" .Title "description" .Description "url" .Permalink "inLanguage" "en" "author" $org "publisher" $pub "isPartOf" $isPartOf -}}
+<script type="application/ld+json">
+{{ jsonify $indent $node | safeJS }}
+</script>
+
+{{ else if eq .Params.jsonldType "article-video" }}
+  {{- $videoID := printf "%s#video" .Permalink -}}
+  {{- $article := dict "@type" "Article" "@id" .Permalink "headline" .Title "description" .Description "url" .Permalink "inLanguage" "en" "author" $org "publisher" $pub "isPartOf" $isPartOf "about" $about "video" (dict "@id" $videoID) -}}
+  {{- $thumb := printf "%s%s" site.BaseURL (strings.TrimPrefix "/" site.Params.ogImage) -}}
+  {{- $video := dict "@type" "VideoObject" "@id" $videoID "name" (.Params.videoName | default .Title) "description" .Params.videoDescription "thumbnailUrl" $thumb "uploadDate" .Params.videoUploadDate "contentUrl" .Params.videoContentURL -}}
+  {{- $graph := dict "@context" "https://schema.org" "@graph" (slice $article $video) -}}
+<script type="application/ld+json">
+{{ jsonify $indent $graph | safeJS }}
+</script>
+
+{{ else }}
+  {{- $node := dict "@context" "https://schema.org" "@type" "Article" "@id" .Permalink "headline" .Title "description" .Description "url" .Permalink "inLanguage" "en" "author" $org "publisher" $pub "isPartOf" $isPartOf -}}
+  {{- with .Params.jsonldDatePublished }}{{ $node = merge $node (dict "datePublished" .) }}{{ end -}}
+  {{- with .Params.jsonldDateModified }}{{ $node = merge $node (dict "dateModified" .) }}{{ end -}}
+  {{- if .Params.jsonldAbout }}{{ $node = merge $node (dict "about" $about) }}{{ end -}}
+<script type="application/ld+json">
+{{ jsonify $indent $node | safeJS }}
+</script>
+{{ end }}

@@ -1,0 +1,28 @@
+baseURL = "https://zipinit.org/"
+locale = "en"
+title = "ZIP Apportionment Initiative"
+theme = "zipinit"
+
+# sitemap.xml and robots.txt are hand-maintained under static/ (they cover
+# non-Hugo assets like PDFs and media that Hugo's generators don't know about).
+# 404 pages, taxonomies, and RSS aren't used by this site.
+disableKinds = ["sitemap", "RSS", "404", "taxonomy", "term"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.parser.attribute]
+  title = true
+  block = true
+
+[markup.goldmark.extensions]
+  [markup.goldmark.extensions.typographer]
+    disable = true
+
+[params]
+  organizationName = "ZIP Apportionment Initiative"
+  organizationEmail = "expand@zipinit.org"
+  githubURL = "https://github.com/simulacra10/zipinit"
+  signalHandle = "@zipinit.12"
+  ogImage = "/preview.jpg"
+  ccLicenseYear = "2026"

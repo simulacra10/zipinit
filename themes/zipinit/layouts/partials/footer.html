@@ -1,0 +1,25 @@
+{{- $showFooter := true -}}
+{{- if isset .Params "footer" -}}{{ $showFooter = .Params.footer }}{{- end -}}
+{{- $showContact := true -}}
+{{- if isset .Params "footercontact" -}}{{ $showContact = .Params.footerContact }}{{- end -}}
+{{ if $showFooter }}
+<footer>
+{{ if .Params.footerNav }}
+  <p>{{ .Params.footerNav | safeHTML }}</p>
+{{ else }}
+  <p>ZIP Apportionment Initiative &middot; zipinit.org</p>
+{{ end }}
+  <p>{{ .Params.footerPrivacy | default "No tracking. No analytics. No advertising." | safeHTML }}</p>
+{{ with .Params.footerExtra }}
+  {{ . | safeHTML }}
+{{ end }}
+  <p>Content is published for public use and reuse under a Creative Commons Attribution&ndash;ShareAlike license - {{ site.Params.ccLicenseYear }}</p>
+{{ if $showContact }}
+  <p>Contact us on <a href="https://signal.org/">Signal</a> {{ site.Params.signalHandle }}</p>
+  <p><a href="/contact.html">Contact &amp; secure (PGP) email</a></p>
+{{ end }}
+{{ with .Params.footerStamp }}
+  <p class="stamp">Page last updated: {{ . }}</p>
+{{ end }}
+</footer>
+{{ end }}

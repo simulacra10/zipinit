@@ -1,0 +1,414 @@
+---
+title: "ZIP Apportionment vs. Independent Redistricting Commissions vs. Ranked-Choice Voting"
+description: "A policy comparison: how ZIP apportionment, independent redistricting commissions, and ranked-choice voting each address gerrymandering differently."
+jsonldDatePublished: "2026-07-12"
+jsonldDateModified: "2026-07-12"
+jsonldAbout: true
+breadcrumb: "Policy Papers › ZIP Apportionment vs. Redistricting Commissions vs. Ranked-Choice Voting"
+footerNav: 'ZIP Apportionment Initiative &mdash; <a href="/index.html">Home</a> &middot; <a href="/charter.html">Charter</a>'
+footerPrivacy: "This site contains no tracking, analytics, cookies, or advertising."
+footerStamp: "Sun July 12 2026"
+---
+
+{{< formats >}}
+<li><a href="zip-apportionment-vs-redistricting-commissions-vs-ranked-choice-voting.org">Org-mode source (.org)</a></li>
+<li><a href="zip-apportionment-vs-redistricting-commissions-vs-ranked-choice-voting.md">Markdown (.md)</a></li>
+<li><a href="zip-apportionment-vs-redistricting-commissions-vs-ranked-choice-voting.txt">Plain text (.txt)</a></li>
+<li><a href="zip-apportionment-vs-redistricting-commissions-vs-ranked-choice-voting.pdf">PDF (.pdf)</a></li>
+<li><a href="zip-apportionment-vs-redistricting-commissions-vs-ranked-choice-voting.zip">All formats, zipped (.zip)</a></li>
+{{< /formats >}}
+
+<nav class="toc">
+  <p class="label">Contents</p>
+  <ol>
+    <li><a href="#what-is-being-reformed">What Is Being Reformed?</a></li>
+    <li><a href="#independent-redistricting-commissions-moving-the-mapmakers">Independent Redistricting Commissions: Moving the Mapmakers</a></li>
+    <li><a href="#ranked-choice-voting-changing-the-ballot">Ranked-Choice Voting: Changing the Ballot</a></li>
+    <li><a href="#zip-apportionment-changing-the-geographic-foundation">ZIP Apportionment: Changing the Geographic Foundation</a></li>
+    <li><a href="#zip-codes-require-a-precise-legal-definition">ZIP Codes Require a Precise Legal Definition</a></li>
+    <li><a href="#what-zip-apportionment-would-improve">What ZIP Apportionment Would Improve</a></li>
+    <li><a href="#what-zip-apportionment-would-not-automatically-solve">What ZIP Apportionment Would Not Automatically Solve</a></li>
+    <li><a href="#the-central-difference">The Central Difference</a></li>
+    <li><a href="#which-one-confronts-gerrymandering">Which One Confronts Gerrymandering?</a></li>
+    <li><a href="#a-question-of-discretion">A Question of Discretion</a></li>
+    <li><a href="#improving-the-existing-system-or-rebuilding-its-foundation">Improving the Existing System or Rebuilding Its Foundation</a></li>
+  </ol>
+</nav>
+
+{{< citation >}}
+<li><strong>Norman Bauer</strong></li>
+<li>ZIP Apportionment Initiative</li>
+<li><a href="https://zipinit.org">https://zipinit.org</a></li>
+<li><a href="mailto:expand@zipinit.org">expand@zipinit.org</a></li>
+{{< /citation >}}
+
+When Americans discuss reforming elections, two proposals tend to dominate the conversation: independent redistricting commissions and ranked-choice voting.
+
+Independent commissions are presented as a way to reduce partisan control over district maps. Ranked-choice voting is presented as a way to give voters more choices and allow preferences beyond a single candidate to influence the result.
+
+Both may improve parts of the existing electoral system. Neither changes its underlying geographic foundation.
+
+ZIP apportionment is a newer and far less familiar proposal. Rather than asking only who should draw legislative districts or how votes should be counted within them, it begins with a more fundamental question:
+
+> **Why should politicians or appointed commissions construct representational boundaries when established geographic communities could instead serve as the basis of representation?**
+
+That is the central difference.
+
+Independent redistricting commissions change **who draws electoral districts**.
+
+Ranked-choice voting changes **how voters select among candidates and how those votes are counted**.
+
+ZIP apportionment changes **the geographic foundation upon which representation is organized**.
+
+This is therefore not a comparison among three interchangeable reforms. It is a comparison between two widely discussed attempts to improve the existing system and a less familiar proposal that would restructure the system closer to its foundation.
+
+## <span class="num">1.</span> What Is Being Reformed? {#what-is-being-reformed}
+
+The traditional American system begins with a predetermined number of legislative seats. After each decennial census, the population is divided among districts from which representatives are elected.
+
+That process raises several separate questions:
+
+- How many representatives will there be?
+- What geographic communities will they represent?
+- Who will draw the boundaries?
+- How will voters choose among the candidates?
+
+Independent redistricting commissions primarily address the question of who draws the boundaries.
+
+Ranked-choice voting addresses how voters choose among candidates and how the winner is determined.
+
+ZIP apportionment begins with the question of what geographic communities representatives should represent. By answering that question first, it could also restrict how much power any mapmaker has to manipulate the boundaries afterward.
+
+## <span class="num">2.</span> Independent Redistricting Commissions: Moving the Mapmakers {#independent-redistricting-commissions-moving-the-mapmakers}
+
+Independent redistricting commissions are commonly described as a way to remove partisan politics from redistricting.
+
+That description deserves scrutiny.
+
+An independent commission may be independent of the legislature’s direct control without being independent of political parties, political appointments or ideological influence. The word *independent* describes the commission’s institutional position. It does not necessarily mean that its members are politically neutral.
+
+Commission structures vary considerably. Some include legislators. Some reserve positions for members of the major political parties. Others employ screening committees, applicant pools and appointments made by elected political leaders.
+
+The result may be a body that is bipartisan rather than nonpartisan.
+
+That distinction matters.
+
+A bipartisan commission does not remove partisan interests from redistricting. It places representatives of those interests together on a separate body and asks them to negotiate the map.
+
+### <span class="num">2.1</span> Virginia’s bipartisan commission
+
+Virginia’s redistricting commission provides a particularly clear example.
+
+The commission consisted of 16 members: eight legislators and eight citizens. The legislative seats were divided between members of the two largest parties in the Virginia Senate and House of Delegates and filled by the respective legislative leaders.[^1]
+
+The citizen commissioners were not selected in a statewide election. Legislative leaders submitted lists of proposed citizen members to a selection committee composed of retired judges, which then chose the eight citizen commissioners.[^2]
+
+During a June 2021 meeting, citizen commissioner Richard Harrell directly addressed the distinction between independence and nonpartisanship. The official meeting summary records that Harrell described the commission as “not nonpartisan but rather bipartisan” and observed that its members had been selected on a partisan basis.[^3]
+
+That characterization did not come from an outside opponent of commissions. It came from a member of the commission during its own proceedings.
+
+Virginia’s system may have prevented one legislative majority from exercising unilateral control over every district. But it did not remove partisanship from mapmaking. It created a body in which partisan representatives and politically selected citizens shared the authority.
+
+### <span class="num">2.2</span> Arizona’s partisan structure
+
+Arizona uses a different model, but political affiliation remains built into its structure.
+
+The Arizona Constitution creates a five-member independent redistricting commission. Legislative leaders appoint four commissioners from a screened pool. No more than two of those four may belong to the same political party. The four appointed commissioners then select a fifth member, who serves as chair and cannot be registered with a party already represented on the commission.[^4]
+
+The selection pool itself is divided according to political registration: nominees from each of the state’s two largest parties and nominees who are not registered with either of those parties.[^5]
+
+This arrangement may prevent either major party from automatically controlling a majority. That is different from removing partisan considerations from the process.
+
+Four of the five appointments are made by elected legislative leaders, and the constitutional structure explicitly accounts for party affiliation.
+
+### <span class="num">2.3</span> The accountability problem
+
+Redistricting performed by a legislature is openly political.
+
+The legislators who vote for a map are elected officials. Their names, party affiliations and votes can be made public. Voters may oppose them in a subsequent election.
+
+Commissioners generally do not face that same form of direct electoral accountability.
+
+They exercise substantial power over representation, but voters ordinarily cannot remove an individual commissioner at the next election. Accountability instead depends on the appointment system, public-meeting requirements, disclosure rules, judicial review and whatever removal procedures the state has established.
+
+Supporters may regard this insulation from electoral pressure as a virtue. Commissioners who are not running for office may be less concerned about protecting their own districts.
+
+Critics can reasonably view the same insulation as a defect. Political power has been transferred from elected partisans to appointed people who may themselves have strong partisan or ideological commitments but who cannot be removed directly by voters.
+
+### <span class="num">2.4</span> The appointment problem
+
+Calling a commission independent does not make its selection process open or politically neutral.
+
+Political leaders may control appointments. Screening bodies may determine who is eligible. Party registration may determine which seats applicants can fill. Rules intended to exclude political insiders may also create a specialized applicant class that is unfamiliar to ordinary voters.
+
+The decisive questions are therefore not merely whether commissioners currently hold elected office.
+
+- Who nominated them?
+- Who screened them?
+- Who appointed them?
+- Were seats distributed according to party affiliation?
+- What political or professional relationships did the commissioners have before their appointment?
+- What direct recourse do voters have if they believe a commissioner abused the position?
+
+A commission can move mapmaking one step away from the legislature while remaining deeply connected to the political establishment.
+
+### <span class="num">2.5</span> What commissions may improve
+
+A commission can prevent the majority party in a legislature from exercising complete and unilateral control over redistricting.
+
+It may require agreement across party lines. It may conduct public hearings, publish proposed maps and receive public submissions. It may also prevent sitting legislators from personally designing districts to protect their own seats.
+
+Those are genuine possible improvements over unrestricted legislative mapmaking.
+
+But they should not be confused with political neutrality.
+
+A map negotiated by appointed Democrats, appointed Republicans and politically screened independents remains a map constructed through a political process.
+
+### <span class="num">2.6</span> What commissions leave unchanged
+
+Most importantly, the commission still possesses the power to construct constituencies.
+
+Its members decide which communities remain together, which are divided and where each district begins and ends. They must balance population equality, political boundaries, compactness, communities of interest and voting-rights requirements.
+
+Those considerations can conflict. Applying them requires judgment.
+
+Replacing legislators with commissioners therefore does not eliminate the central power that makes gerrymandering possible. It transfers that power to another body.
+
+The public is then asked to trust that the new mapmakers are fairer, less self-interested or more restrained than the old ones.
+
+Sometimes they may be.
+
+But the institutional problem remains: a small group of people still has the authority to decide which voters will be placed together and which will be separated.
+
+ZIP apportionment takes a different approach. It does not depend primarily upon finding better people to draw political boundaries. It attempts to reduce how much freedom anyone has to draw them.
+
+## <span class="num">3.</span> Ranked-Choice Voting: Changing the Ballot {#ranked-choice-voting-changing-the-ballot}
+
+Ranked-choice voting operates at a later stage of the electoral process.
+
+Under the familiar single-winner form, voters rank candidates in order of preference rather than selecting only one. When no candidate receives the required number of first-choice votes, the candidate with the fewest votes is eliminated. Ballots assigned to that candidate are transferred to the next-ranked candidate who remains in the contest. Counting continues in rounds until a winner is determined.[^6]
+
+Ranked-choice voting therefore changes the information voters may place on the ballot and the process used to determine the winner.
+
+It does not determine where district boundaries are located.
+
+A state could use ranked-choice voting within districts drawn by a legislature. It could use it within districts drawn by a commission. It could also use it within constituencies based on ZIP geography.
+
+### <span class="num">3.1</span> What ranked-choice voting may improve
+
+Ranked-choice voting allows voters to express more information than a traditional single-choice ballot.
+
+A voter may support a preferred candidate while also identifying a second or third choice. In a race with several candidates, this can reduce the concern that voting for a less-established candidate will help elect the voter’s least-preferred candidate.
+
+Depending upon the form adopted, RCV can also produce a majority winner through additional counting rounds without requiring a separate runoff election.
+
+Those are changes to the manner in which candidates compete and voters express their preferences.
+
+### <span class="num">3.2</span> What ranked-choice voting leaves unchanged
+
+Ranked-choice voting does not prevent gerrymandering.
+
+A district can still be designed to concentrate one group of voters in a small number of districts or divide that group among several districts. Giving those voters a ranked ballot does not alter the geographic composition of their constituency.
+
+RCV also does not determine how many representatives a community receives. In a single-member system, the district still elects one representative regardless of whether voters select one candidate or rank several.
+
+Ranked-choice voting changes the election held inside a constituency.
+
+It does not change how that constituency was created.
+
+## <span class="num">4.</span> ZIP Apportionment: Changing the Geographic Foundation {#zip-apportionment-changing-the-geographic-foundation}
+
+ZIP apportionment begins earlier in the process.
+
+Instead of beginning with a fixed number of seats and directing mapmakers to divide a state into that many districts, it begins with established ZIP-based communities.
+
+Under the proposal considered here, residential five-digit ZIP areas would provide the initial geographic units of representation. A ZIP area within an established population range could elect one representative. A more populous ZIP could receive additional representatives and, where necessary, be divided into smaller constituencies under predetermined rules.
+
+The objective is not simply to appoint more trustworthy mapmakers.
+
+It is to reduce the mapmaker’s authority by establishing the basic representational geography before anyone considers the likely partisan result.
+
+Traditional redistricting begins with the number of districts and constructs the geography needed to fill them.
+
+ZIP apportionment begins with the geography and derives much of the representation from it.
+
+That reverses the order of the process.
+
+## <span class="num">5.</span> ZIP Codes Require a Precise Legal Definition {#zip-codes-require-a-precise-legal-definition}
+
+ZIP Codes were created for mail delivery, not political representation.
+
+They also are not geographic polygons in the same sense as counties, municipalities or legislative districts. The Census Bureau explains that postal ZIP Codes are collections of delivery routes and points rather than conventional areas.[^7]
+
+To publish demographic and geographic data associated with ZIP Codes, the Census Bureau creates ZIP Code Tabulation Areas, or ZCTAs. ZCTAs are generalized area representations constructed from census blocks to approximate the geographic distribution of ZIP Code service areas.[^8]
+
+A ZCTA is not identical to a postal ZIP Code.
+
+Not every postal ZIP Code corresponds to a conventional residential area. Some ZIP Codes principally serve post-office boxes, organizations or particular delivery functions. Census geography also shows that ZCTAs need not remain entirely within county, municipal or even state boundaries.[^9]
+
+Any serious ZIP-apportionment law must therefore define exactly which geography governs.
+
+It cannot merely say, “Use ZIP Codes.”
+
+The law would need to identify the official geographic dataset, determine how often it is updated and establish rules for discrepancies between postal ZIP assignments and census geography.
+
+These are genuine implementation questions. They are not reasons to dismiss the proposal, but they must be answered before ZIP apportionment could become a functioning legal system.
+
+## <span class="num">6.</span> What ZIP Apportionment Would Improve {#what-zip-apportionment-would-improve}
+
+ZIP apportionment is intended to reduce the freedom to construct constituencies for political purposes.
+
+Under conventional redistricting, mapmakers can combine census blocks, precincts, neighborhoods and portions of communities until a district reaches its required population. Even when rules discourage unnecessary division, the final district remains the product of human decisions.
+
+A ZIP-based system would begin with geographic units that already exist independently of the redistricting process.
+
+The ZIP would not have been created because it produces a desirable Republican, Democratic or incumbent-protecting result. It would predate the election and would have been established for an unrelated administrative purpose.
+
+That does not mean every postal ZIP is naturally a unified political community. ZIP areas can cross other jurisdictional boundaries and can contain residents who do not regard themselves as belonging to the same civic community.
+
+The narrower and more defensible claim is that ZIP geography provides an existing, externally established starting point that political mapmakers did not create for the election before them.
+
+That would change where discretion enters the system.
+
+Instead of giving mapmakers broad authority to design every constituency, ZIP apportionment would require them to justify departures from a predefined geographic rule.
+
+## <span class="num">7.</span> What ZIP Apportionment Would Not Automatically Solve {#what-zip-apportionment-would-not-automatically-solve}
+
+ZIP populations vary substantially. A strict rule granting exactly one representative to every ZIP area, regardless of population, would create major population disparities.
+
+The Supreme Court’s one-person, one-vote cases require state and local legislative districts to be constructed on a substantially equal-population basis. The Court has stated that when members of an elected body are chosen from separate districts, those districts must, as far as practicable, allow equal numbers of people to elect proportionally equal numbers of representatives.[^10]
+
+A workable ZIP model would therefore require a population threshold.
+
+A smaller residential ZIP might elect one representative. A much larger ZIP might elect several representatives or be divided into several internal constituencies.
+
+That creates another risk.
+
+If officials are given broad discretion to subdivide large ZIP areas or combine small ones, the system could recreate conventional redistricting under another name.
+
+For ZIP apportionment to serve its intended purpose, those exceptions would have to be narrow, transparent and governed by rules established before the partisan effects of a particular map were known.
+
+A ZIP-based system would also have to comply with the Voting Rights Act. Section 2 applies nationwide to voting standards, practices and procedures, including districting plans and methods used to elect public officials. It prohibits both intentionally discriminatory practices and practices that produce prohibited discriminatory results.[^11]
+
+ZIP boundaries could not be treated as an excuse to ignore those requirements.
+
+The proposal must therefore solve two problems at once:
+
+- It must preserve enough population equality and voting-rights protection to meet existing law.
+- It must also restrict political discretion enough that ZIP geography does not become merely another set of pieces for mapmakers to rearrange.
+
+## <span class="num">8.</span> The Central Difference {#the-central-difference}
+
+The most useful comparison is not simply which proposal is best. It is which institutional question each proposal answers.
+
+| Approach | Central question | What it changes | What remains |
+|---|---|---|---|
+| Independent redistricting commissions | Who draws the districts? | Mapping authority moves from elected legislators to an appointed or separately selected body | Custom districts, population balancing, partisan influence and subjective boundary decisions remain |
+| Ranked-choice voting | How is the winner selected? | Voters rank candidates and ballots may be transferred through counting rounds | District geography and the number of representatives generally remain unchanged |
+| ZIP apportionment | What geographic communities should representation begin with? | ZIP-based geography becomes the default foundation for allocating representation | Population equality, voting-rights compliance and limited rules for unusually large or small areas remain necessary |
+
+These approaches are not necessarily mutually exclusive.
+
+A ZIP-apportioned legislature could use ranked-choice voting. A commission could be assigned the limited task of subdividing ZIP areas that exceed an established population threshold. Ranked-choice voting could be adopted without changing any district boundaries.
+
+They can coexist because they operate at different layers of the electoral system.
+
+But they should not be treated as equally fundamental.
+
+Ranked-choice voting modifies the election conducted within a constituency.
+
+An independent commission modifies the institution authorized to draw the constituency.
+
+ZIP apportionment establishes a different starting point for determining what the constituency is.
+
+## <span class="num">9.</span> Which One Confronts Gerrymandering? {#which-one-confronts-gerrymandering}
+
+The answer depends upon how deeply we define the problem.
+
+If gerrymandering is understood primarily as legislators drawing maps for their own partisan advantage, an independent commission addresses the immediate conflict of interest.
+
+It changes who holds the pencil.
+
+But partisan gerrymandering is accomplished through the strategic placement of district lines. The Supreme Court has described it as drawing legislative districts to subordinate one political party’s supporters and entrench a rival party in power.[^12]
+
+If the deeper problem is that any political institution possesses broad authority to assemble voters into strategically useful constituencies, ZIP apportionment goes further.
+
+It limits what the pencil may draw.
+
+Ranked-choice voting may improve competition and voter choice within a district, but it does not change the district’s boundaries. It therefore does not directly remove the geographic mechanism through which gerrymandering occurs.
+
+This does not mean commissions or ranked-choice voting have no value.
+
+It means they work within the familiar districting structure.
+
+ZIP apportionment challenges that structure.
+
+## <span class="num">10.</span> A Question of Discretion {#a-question-of-discretion}
+
+The three approaches can also be understood by asking where they place political discretion.
+
+Independent redistricting commissions transfer mapping discretion to a separate body, often structured to balance partisan interests rather than eliminate them.
+
+Ranked-choice voting gives voters greater discretion to express preferences among several candidates.
+
+ZIP apportionment attempts to reduce the discretion available to anyone constructing geographic constituencies.
+
+Each approach involves tradeoffs.
+
+A commission can consider local conditions and balance competing criteria, but doing so requires subjective judgment.
+
+Ranked-choice voting allows voters to express additional preferences, but it requires compatible ballot design, counting procedures, election systems and voter education. The U.S. Election Assistance Commission recognizes that alternative voting methods create distinct administrative and implementation considerations for election officials.[^13]
+
+ZIP apportionment provides a more rule-bound geographic starting point, but ZIP areas were not created as political units and vary greatly in population and configuration.
+
+The relevant question is not whether one approach is flawless.
+
+None is.
+
+The relevant question is which form of discretion poses the greatest threat to representational integrity and where that discretion should reside.
+
+## <span class="num">11.</span> Improving the Existing System or Rebuilding Its Foundation {#improving-the-existing-system-or-rebuilding-its-foundation}
+
+Independent redistricting commissions and ranked-choice voting are widely discussed because they offer changes without requiring a complete reconsideration of how representation is geographically organized.
+
+A commission promises a different mapmaker.
+
+Ranked-choice voting promises a more expressive ballot.
+
+ZIP apportionment makes a larger claim: the problem may not be limited to who draws the map or how elections are conducted after the map is complete.
+
+The deeper problem may be the assumption that representation should begin with a map constructed by political authorities.
+
+That is what makes ZIP apportionment different.
+
+It begins with existing communities rather than a desired number of districts.
+
+It treats geographic boundaries as something political officials should inherit whenever practicable, not something they should be free to invent.
+
+It does not promise to eliminate every dispute. Large ZIP areas would still need to be divided. Population equality would still matter. Voting-rights protections would still apply. Rules would be needed for changes in census and postal geography.
+
+But those decisions would occur within a system whose default boundaries had been established for reasons unrelated to the election.
+
+Independent commissions attempt to improve or balance the people who draw the lines.
+
+Ranked-choice voting improves the choices voters make inside those lines.
+
+ZIP apportionment asks whether we can remove much of the power to draw those lines in the first place.
+
+That is not simply another election reform.
+
+It is a different foundation for representation.
+
+[^1]: Code of Virginia § 30-392 establishes a 16-member commission composed of eight legislative commissioners and eight citizen commissioners. The legislative members are appointed by the leaders of the two largest parties in each chamber. [Source](https://law.lis.virginia.gov/vacode/title30/chapter62/section30-392/)
+[^2]: Code of Virginia §§ 30-393 and 30-394 establish the Redistricting Commission Selection Committee and the process under which legislative leaders submit citizen candidates for selection. [Source](https://law.lis.virginia.gov/vacodefull/title30/chapter62/)
+[^3]: Virginia Redistricting Commission, *Summary of Meeting*, June 7, 2021, p. 2. The official summary states that Richard Harrell described the commission as “not nonpartisan but rather bipartisan” and said its members had been selected on a partisan basis. [Source](https://www.virginiaredistricting.org/2021/Data/public%20hearings/sm060721.pdf)
+[^4]: Arizona Constitution, Article IV, Part 2, § 1, establishes the five-member Arizona Independent Redistricting Commission and its appointment process. [Source](https://www.azleg.gov/const/4/1.p2.htm)
+[^5]: The Arizona Constitution requires the applicant pool to contain nominees from each of the two largest political parties and nominees not registered with either of those parties. [Source](https://www.azleg.gov/const/4/1.p2.htm)
+[^6]: U.S. Election Assistance Commission, *Alternative Voting Methods in the United States*, describing ranked ballots and successive-round tabulation methods. [Source](https://www.eac.gov/election-officials/alternative-voting-methods-united-states)
+[^7]: U.S. Census Bureau, “2011 Geography Changes,” explaining that ZIP Codes are collections of postal delivery routes rather than geographic areas. [Source](https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes/2011/geography-changes.html)
+[^8]: U.S. Census Bureau, “ZIP Code Tabulation Areas,” defining ZCTAs as generalized area representations of point-based ZIP Codes constructed from census blocks. [Source](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html)
+[^9]: U.S. Census Bureau materials explain that ZCTAs are approximate representations of postal service areas and may cross county, place and, in a small number of cases, state boundaries. [Source](https://www.census.gov/programs-surveys/geography/about/glossary.html)
+[^10]: The Supreme Court’s one-person, one-vote doctrine requires separately elected districts to provide substantially equal representation. See *Reynolds v. Sims*, 377 U.S. 533 (1964), and the Court’s summary of the doctrine in *Evenwel v. Abbott*. [Source](https://www.supremecourt.gov/qp/14-00940qp.pdf)
+[^11]: U.S. Department of Justice, *Guidance Under Section 2 of the Voting Rights Act*, explaining that Section 2 applies nationwide to districting plans and methods of electing public officials and prohibits both intentionally discriminatory practices and practices producing discriminatory results. [Source](https://www.justice.gov/crt/case-document/file/1429826/dl?inline=)
+[^12]: In *Rucho v. Common Cause*, the Supreme Court discussed partisan gerrymandering claims involving district lines drawn to subordinate one political party’s supporters and entrench another party in power. [Source](https://www.supremecourt.gov/opinions/18pdf/18-422_9ol1.pdf)
+[^13]: U.S. Election Assistance Commission, *Alternative Voting Methods in the United States*. [Source](https://www.eac.gov/election-officials/alternative-voting-methods-united-states)

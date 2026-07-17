@@ -1,2 +1,5 @@
 .obsidian
 *.bak
+/resources/
+/.hugo_build.lock
+/public/
