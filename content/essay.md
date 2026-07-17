@@ -5,7 +5,7 @@ description: "An institutional essay arguing for ZIP-code–based legislative ap
 url: /essay.html
 jsonldDateModified: "2026-01-25"
 jsonldAbout: true
-breadcrumb: "Primary Essay"
+breadcrumb: "Essays › Primary Essay"
 footerStamp: "Sun Jan 25 09:46:16 AM EST 2026"
 ---
 

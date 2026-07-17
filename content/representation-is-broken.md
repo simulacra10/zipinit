@@ -9,7 +9,7 @@ videoName: "Representation Is Broken. Here Is Why."
 videoDescription: "A short film explaining why U.S. political representation lost its connection to real, lived communities."
 videoUploadDate: "2026-02-02"
 videoContentURL: "https://zipinit.org/mp3-mp4/representation-is-broken/REPRESENTATION%20IS%20BROKEN.mp4"
-breadcrumb: "Representation Is Broken"
+breadcrumb: "Essays › Representation Is Broken"
 footer: false
 ---
 

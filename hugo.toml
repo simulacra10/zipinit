@@ -26,3 +26,54 @@ disableKinds = ["sitemap", "RSS", "404", "taxonomy", "term"]
   signalHandle = "@zipinit.12"
   ogImage = "/preview.jpg"
   ccLicenseYear = "2026"
+
+# Header navigation. "Essays" has no url - it's a disclosure group, not a
+# link - grouping the three standalone essay pages, which don't have a
+# section/hub page of their own.
+[[menu.main]]
+  identifier = "essays"
+  name = "Essays"
+  weight = 1
+
+[[menu.main]]
+  parent = "essays"
+  name = "Primary Essay"
+  url = "/essay.html"
+  weight = 1
+
+[[menu.main]]
+  parent = "essays"
+  name = "Representation Is Broken"
+  url = "/representation-is-broken.html"
+  weight = 2
+
+[[menu.main]]
+  parent = "essays"
+  name = "Louisiana v. Callais"
+  url = "/louisiana-v-callais.html"
+  weight = 3
+
+[[menu.main]]
+  name = "Brief"
+  url = "/brief.html"
+  weight = 2
+
+[[menu.main]]
+  name = "Policy Papers"
+  url = "/policy-papers/"
+  weight = 3
+
+[[menu.main]]
+  name = "Pamphlets"
+  url = "/pamphlets/"
+  weight = 4
+
+[[menu.main]]
+  name = "Charter"
+  url = "/charter.html"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact.html"
+  weight = 6

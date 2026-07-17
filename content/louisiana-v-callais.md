@@ -10,7 +10,7 @@ metaRobots: "index, follow"
 jsonldDatePublished: "2026-04-29"
 jsonldDateModified: "2026-04-29"
 jsonldAbout: true
-breadcrumb: "Louisiana v. Callais"
+breadcrumb: "Essays › Louisiana v. Callais"
 footerStamp: "Wed April 29 2026"
 ---
 
