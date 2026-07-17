@@ -16,45 +16,220 @@ and policy mechanics. Its purpose is to answer one question:
 * Representation Definition
 
 ** The Properties of Representation
-1. Must have a constituency.
-   A represenative must have someone or some group to represent.
-2. Must have authorization.
-   The represenative must be authorized by contract or vote. 
-3. Must have agency.
-   The representative must possess actual authority to speak, vote, deliberate, or act on behalf of the constituency.
-   A person without institutional power may be an advocate, but not a political representative in the full sense.
-4. Must be accountable.
-   Authorization creates the relationship; accountability maintains it.
 
+Political representation must possess four minimum properties.
 
-** The Properties of Represenationl Integrity
+*** 1. Constituency
 
-*** What is Representational Integrity
-Representational integrity is the degree to which a political system preserves a clear, stable, comprehensible, and accountable relationship between a community and the person empowered to represent it.
+There must be an identifiable body of people on whose behalf political power is exercised.
 
-*** What makes Representation Integrity
-1. Identifiable
-2. Traceability
-3. Stability
-4. Community Fidelity
-5. Granularity
-6. Accountability Precision
-7. Rule determinacy
-8. Reproducibility
-9. Legibility
-10. Resistance to manipulation
+Without a defined constituency, there is no answer to the question:
+
+#+begin_quote
+Whom does this representative represent?
+#+end_quote
+
+*** 2. Authorization
+
+The constituency must have a recognized means of selecting, approving, or rejecting the representative.
+
+In an electoral system, authorization normally occurs through voting.
+
+*** 3. Agency
+
+The representative must possess actual authority to speak, vote, deliberate, or act on behalf of the constituency.
+
+A person without institutional authority may be an advocate or spokesperson, but not a political representative in the full sense.
+
+*** 4. Accountability
+
+The constituency must have a mechanism for evaluating and replacing the representative.
+
+Authorization establishes the representative relationship. Accountability maintains it.
+
+*** Summary
+These are the minimum properties of political representation. Representative governments, both past and present, operate through some combination of constituency, authorization, agency, and accountability.
+
+However, these properties only establish that representation exists. They do not tell us whether the representation is clear, stable, fair, or resistant to political manipulation.
+
+That requires representational integrity.
+
+** The Properties of Representational Integrity
+
+*** What Is Representational Integrity?
+
+Representational integrity is the degree to which a political system preserves a clear, stable, understandable, and accountable relationship between a community and the person empowered to represent it.
+
+Representational integrity extends and strengthens the minimum properties of representation.
+
+It does not replace constituency, authorization, agency, or accountability. Instead, it asks whether those properties operate in a way that faithfully connects people, communities, and representatives.
+
+Representational integrity can be understood through four broad properties:
+
+1. Community connection
+2. Continuity
+3. Transparency
+4. Political responsibility
+
+*** 1. Community Connection
+
+Representation should begin with communities that people can recognize and understand.
+
+A citizen should be able to identify the community being represented, understand why they belong to it, and know who represents it.
+
+Community connection includes three related qualities:
+
+**** Identifiability
+
+Citizens should be able to identify their constituency and the representative responsible for it.
+
+A constituency should not exist only as lines on a technical map. It should make sense to the people who live within it.
+
+**** Community Fidelity
+
+The constituency should correspond as closely as practical to the community people actually inhabit.
+
+People form communities through shared places, institutions, infrastructure, businesses, schools, churches, roads, and recurring local concerns.
+
+Community fidelity measures how closely the political constituency reflects those lived relationships.
+
+**** Granularity
+
+Representation should operate at a scale small enough to preserve meaningful differences between communities.
+
+When many distinct communities are combined into one large district, their individual interests become less visible.
+
+Greater granularity gives representation greater local resolution.
+
+*** 2. Continuity
+
+The relationship between a community and its representative should remain recognizable over time.
+
+Citizens should not be repeatedly moved between constituencies because political officials redraw boundaries.
+
+Continuity includes two related qualities:
+
+**** Stability
+
+The basic constituency should remain substantially recognizable over time.
+
+Population changes may require adjustments, but those adjustments should not require the complete reconstruction of political geography after every census.
+
+**** Traceability
+
+Citizens should be able to follow the relationship between themselves, their community, their constituency, and their representative.
+
+That relationship should be direct and understandable:
+
+#+begin_quote
+Citizen → Community → Constituency → Representative
+#+end_quote
+
+A citizen should be able to determine why they belong to a particular constituency and how that constituency produces their representation.
+
+*** 3. Transparency
+
+The rules that create representation should be public, understandable, and independently verifiable.
+
+Citizens should not be required to trust political parties, commissions, specialists, or mapmakers without being able to examine the process for themselves.
+
+Transparency includes three related qualities:
+
+**** Rule Determinacy
+
+The composition of constituencies should follow a public and predictable rule rather than the discretionary judgment of political actors.
+
+The same rule should apply regardless of which party controls the government.
+
+**** Reproducibility
+
+Different people applying the same rules to the same public data should reach the same result.
+
+A trustworthy system should not merely announce a map or allocation. Citizens, journalists, researchers, and political opponents should be able to independently verify it.
+
+**** Legibility
+
+The basic logic of the system should be understandable in ordinary language.
+
+Citizens do not need to perform every calculation themselves, but they should be able to understand how their constituency was determined and why they have the representation they do.
+
+*** 4. Political Responsibility
+
+Representation should create a clear relationship of responsibility between a community and its representative.
+
+The representative should know which community must be served, and the community should know whom it can reward, challenge, or replace.
+
+Political responsibility includes two related qualities:
+
+**** Accountability Precision
+
+Citizens should know which representative is responsible for their community.
+
+Representatives should know which community has the authority to judge their performance.
+
+Accountability is strongest when the relationship is clear:
+
+#+begin_quote
+This is the community.
+
+This is its representative.
+
+This is the community to which that representative must answer.
+#+end_quote
+
+**** Resistance to Manipulation
+
+The system should minimize opportunities for politicians, parties, commissions, or incumbents to construct constituencies for their own advantage.
+
+No political system can eliminate manipulation entirely. A system with representational integrity limits where discretion can be exercised and makes manipulation easier for the public to recognize.
+
+** Representation and Representational Integrity
+
+The four minimum properties of representation answer the question:
+
+#+begin_quote
+Does representation exist?
+#+end_quote
+
+The four properties of representational integrity answer a different question:
+
+#+begin_quote
+How well does that representation connect a community to its representative?
+#+end_quote
+
+A political system may provide representation while possessing little representational integrity.
+
+It may provide a constituency, but construct that constituency around political interests.
+
+It may provide authorization, but dilute a community's voice within a much larger district.
+
+It may provide agency, but place political power too far from the people being represented.
+
+It may provide accountability, but spread responsibility so broadly that no particular community can exercise it effectively.
+
+Representational integrity therefore rests on four principles:
+
+1. The constituency should reflect a recognizable community.
+2. The relationship should remain stable over time.
+3. The system should operate through understandable and verifiable rules.
+4. The representative should remain clearly responsible to the community.
+
+These principles provide a practical standard for judging any representative system.
+
+The question is not merely whether people have a representative.
+
+The question is whether the structure preserves the integrity of the relationship between the people, their community, and the person who acts in their name.
+
 
 
 ** The Core Framework
+| Property                     | Plain-language question                                                            | What it includes                                     | ZIP apportionment strengthens it by…                                                                                              |
+| ---------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Community Connection**     | Does this constituency reflect a real community?                                   | Identifiability, community fidelity, granularity     | Beginning with recognizable local geography rather than assembling voters around a population target                              |
+| **Continuity**               | Does the representative relationship remain stable and easy to follow?             | Stability, traceability                              | Preserving a recognizable geographic base instead of reconstructing the electorate after every census                             |
+| **Transparency**             | Can ordinary people understand and verify how representation was assigned?         | Rule determinacy, reproducibility, legibility        | Applying public data and a fixed rule rather than relying on discretionary line-drawing                                           |
+| **Political Responsibility** | Is it clear who represents the community and who can hold that person accountable? | Accountability precision, resistance to manipulation | Creating a clearer community-to-representative relationship while limiting the ability of political actors to choose their voters |
 
-| Property               | Precise meaning                                              | ZIP extension                                               |
-| ---------------------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
-| **Identifiability**    | Citizens can identify their constituency and representative  | Uses familiar, named geographic units                       |
-| **Community fidelity** | Constituencies correspond to lived communities               | Begins with existing community geography                    |
-| **Stability**          | Constituencies remain recognizable over time                 | Avoids complete decennial reconstruction                    |
-| **Granularity**        | Local differences remain politically visible                 | Creates higher-resolution representation                    |
-| **Determinacy**        | Assignments follow public rules rather than discretion       | Replaces discretionary line-drawing with a formula          |
-| **Accountability**     | Responsibility between community and representative is clear | Creates a more direct representative-community relationship |
 
 *** Summary
 ZIP apportionment is not merely another way to draw districts. It extends the functional properties of representation. It makes representation more geographically precise, more stable, more reproducible, and more closely anchored to recognizable communities.
