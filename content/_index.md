@@ -1,4 +1,4 @@
----
+0---
 title: "ZIP Apportionment Initiative"
 description: "A volunteer, outcome-bound initiative advancing ZIP-code-based legislative apportionment."
 ogDescription: "A structural reform proposal: elect legislative representatives by ZIP code instead of gerrymandered districts."
@@ -17,15 +17,12 @@ footerStamp: "Tue April 14 2026"
 <p>They call that representation, but it is too distant, too artificial, and too easy to rig.</p>
 {{< /hero >}}
 
-ZIP Apportionment begins with a simple idea: representation should be rooted in place.
+ZIP Apportionment begins with a simple principle: representation should be rooted in recognizable communities, not constituencies constructed by political actors.
 
-This site exists to articulate, defend, and advance a single institutional proposal:
-legislative representation should be apportioned by ZIP code rather than population,
-beginning with the State of Maryland.
+This project advances a structural framework for strengthening representational integrity by restoring a direct and accountable relationship between a community and its representative. By using ZIP codes as the geographic foundation of representation, constituencies become more locally grounded, more transparent in their boundaries and lines of accountability, and less vulnerable to discretionary redistricting.
 
-This project is for Maryland voters, legislators, journalists, and civic reformers
-who want a structural answer to gerrymandering, distance from power, and the collapse
-of representation integrity.
+Beginning in Maryland, ZIP Apportionment seeks to demonstrate how representation can be organized around public rules and familiar geography while still accounting for population differences. This site exists to develop that proposal, test it against serious objections, and make the case for a system in which communities choose their representatives rather than political institutions choosing their constituencies.
+
 
 {{< cta title="The TL;DR" >}}
 <p><a href="brief.html">Read the 5-minute case.</a></p>
