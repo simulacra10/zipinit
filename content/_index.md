@@ -1,4 +1,4 @@
-0---
+---
 title: "ZIP Apportionment Initiative"
 description: "A volunteer, outcome-bound initiative advancing ZIP-code-based legislative apportionment."
 ogDescription: "A structural reform proposal: elect legislative representatives by ZIP code instead of gerrymandered districts."
