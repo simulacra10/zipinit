@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+<ul class="journal-list">
+{{ range .Pages.ByDate.Reverse }}
+  <li>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+{{ end }}
+</ul>
+
+{{ partial "footer.html" . }}
+{{ end }}

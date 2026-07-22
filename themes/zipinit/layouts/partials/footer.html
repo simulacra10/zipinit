@@ -9,7 +9,7 @@
 {{ else }}
   <p>ZIP Apportionment Initiative &middot; zipinit.org</p>
 {{ end }}
-  <p>{{ .Params.footerPrivacy | default "No tracking. No analytics. No advertising." | safeHTML }}</p>
+  <p>{{ .Params.footerPrivacy | default "No tracking. No advertising." | safeHTML }}</p>
 {{ with .Params.footerExtra }}
   {{ . | safeHTML }}
 {{ end }}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+<div class="meta">
+<div><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></div>
+{{ with .Params.author }}<div>{{ . }}</div>{{ end }}
+{{ with .Params.categories }}<div>{{ delimit . ", " }}</div>{{ end }}
+{{ with .Params.tags }}<div>{{ delimit . ", " }}</div>{{ end }}
+</div>
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}
+{{ end }}
