@@ -15,6 +15,16 @@
 <link rel="icon" href="/static/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
 <link rel="canonical" href="{{ .Permalink }}">
+{{- /*
+  Scoped CSP for pages that mount the Nostr discussion widget (phase 1-2 PoC
+  only — this site has no site-wide CSP otherwise). connect-src's relay list
+  must be kept in sync with static/nostr/relays.json by hand until a later
+  phase generates this from that file. See nostr-discussion-architecture.md
+  section 6.
+*/ -}}
+{{- if or .Params.nostrDiscussion (eq .Layout "discussion") }}
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src 'self' wss://relay.damus.io wss://nos.lol wss://relay.nostr.band; object-src 'none'; base-uri 'none'">
+{{- end }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ .Description }}">
 {{ with .Params.metaAuthor }}<meta name="author" content="{{ . }}">{{ end }}

@@ -1,0 +1,62 @@
+{{- /*
+  Nostr discussion widget mount point (phase 1-2 PoC). Two invocation forms:
+    - Article comments (default): {{ partial "nostr-discussion.html" . }}
+      Renders only when the page's nostrDiscussion front matter is true.
+    - Official feed: {{ partial "nostr-discussion.html" (dict "Mode" "feed" "Page" .) }}
+  See nostr-discussion-architecture.md and nostr-poc-builder-prompt.md.
+*/ -}}
+{{- $page := . -}}
+{{- $mode := "comments" -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .Page -}}
+  {{- $mode = .Mode | default "comments" -}}
+{{- end -}}
+{{- $enabled := true -}}
+{{- if eq $mode "comments" -}}
+  {{- $enabled = false -}}
+  {{- if isset $page.Params "nostrdiscussion" -}}
+    {{- $enabled = $page.Params.nostrDiscussion -}}
+  {{- end -}}
+{{- end -}}
+{{- $locked := false -}}
+{{- if isset $page.Params "nostrlocked" -}}
+  {{- $locked = $page.Params.nostrLocked -}}
+{{- end -}}
+{{- if $enabled -}}
+<section class="nostr-discussion-section" aria-labelledby="nostr-discussion-heading">
+  <h2 id="nostr-discussion-heading">{{ if eq $mode "feed" }}Official Nostr feed{{ else }}Discussion{{ end }}</h2>
+  <p class="nostr-note">
+    Comments are drawn from the public Nostr network. This site hides some
+    content it judges to be spam or abusive, but that content may still be
+    visible elsewhere on Nostr.
+  </p>
+
+  <noscript>
+    <p class="nostr-status">
+      View or join this discussion using a Nostr client:
+      <a href="https://njump.me/npub1fthhr5palh5nmv9ly7ksmtusyey3xxf2sx9etmrl4z3uzu80a3uqjsen7k">njump.me</a>.
+    </p>
+  </noscript>
+
+  <div
+    class="nostr-discussion"
+    data-mode="{{ $mode }}"
+    data-locked="{{ $locked }}"
+    {{ if eq $mode "comments" }}data-canonical-url="{{ $page.Permalink }}"{{ end }}
+  >
+    <p class="nostr-status" aria-live="polite">Loading…</p>
+    {{ if eq $mode "comments" }}<p class="nostr-count"></p>{{ end }}
+    <ol class="nostr-list"></ol>
+    <button type="button" class="nostr-load-more" hidden>Load more</button>
+
+    <div class="nostr-post-box" aria-disabled="true">
+      <label for="nostr-reply-{{ $mode }}">Add a comment (requires a Nostr signer — coming soon)</label>
+      <textarea id="nostr-reply-{{ $mode }}" rows="3" disabled></textarea>
+      <button type="button" disabled>Post</button>
+    </div>
+  </div>
+
+  <script src="/nostr/vendor/nostr-tools.2.24.1.min.js" defer></script>
+  <script src="/js/nostr-widget.js" defer></script>
+</section>
+{{- end -}}

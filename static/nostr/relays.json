@@ -1,0 +1,10 @@
+{
+  "_comment": "PLACEHOLDER relay list, not yet vetted for uptime/spam reputation. Replace before production per architecture doc section 15 (open decisions) before this ships.",
+  "relays": [
+    "wss://relay.damus.io",
+    "wss://nos.lol",
+    "wss://relay.nostr.band"
+  ],
+  "officialNpub": "npub1fthhr5palh5nmv9ly7ksmtusyey3xxf2sx9etmrl4z3uzu80a3uqjsen7k",
+  "officialNip05": "zip@zipinit.org"
+}

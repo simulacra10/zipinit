@@ -5,7 +5,7 @@
 
 {{ .Content }}
 
-{{ partial "nostr-discussion.html" . }}
+{{ partial "nostr-discussion.html" (dict "Mode" "feed" "Page" .) }}
 
 {{ partial "footer.html" . }}
 {{ end }}
